@@ -2,4 +2,7 @@
 *.out
 *.aux
 *.log
-
+.DS_Store
+*.fdb_latexmk
+*.fls
+*.synctex.gz

@@ -2,9 +2,9 @@
 \usepackage[cm]{fullpage}
 \usepackage{color}
 \usepackage{hyperref}
+\usepackage{fontawesome}
 
 \hypersetup{breaklinks=true,%
-pagecolor=white,%
 colorlinks=true,%
 linkcolor=cyan,%
 urlcolor=MyDarkBlue}
@@ -18,7 +18,7 @@ urlcolor=MyDarkBlue}
 \newlength{\tabin}
 \setlength{\tabin}{1em}
 \newlength{\secsep}
-\setlength{\secsep}{0.1cm}
+\setlength{\secsep}{0.13cm}
 
 \setlength{\parindent}{0in}
 \setlength{\parskip}{0in}
@@ -26,7 +26,7 @@ urlcolor=MyDarkBlue}
 \setlength{\topsep}{0in}
 \setlength{\tabcolsep}{0in}
 
-\definecolor{contactgray}{gray}{0.3}
+\definecolor{contactgray}{gray}{0.2}
 \pagestyle{empty}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -70,7 +70,7 @@ urlcolor=MyDarkBlue}
 }{\end{tabbedsection}}
 
 \newenvironment{resume_subsection}[2][]{
-  \textbf{#2} \hfill {\footnotesize #1} \hspace{2em}
+  \textbf{#2} \hfill {\footnotesize #1} \hspace{-5.1em}
   \begin{tabbedsection}{0.5\secsep}
 }{\end{tabbedsection}}
 
@@ -82,8 +82,9 @@ urlcolor=MyDarkBlue}
 
 \newenvironment{resume_employer}[4]{
   \vspace{\secsep}
-  \textbf{#1} \\ 
-  \indent {\small #2} \hfill {\footnotesize#3 (#4)}
+  \textbf{#1} {\footnotesize #3} \hfill {\footnotesize#4} \hspace{-1em} \\
+  \small{#2}  
+  \vspace{\secsep}
   \begin{tabbedsection}{0pt}
   \begin{subitems}
 }{\end{subitems}\end{tabbedsection}}
@@ -96,90 +97,102 @@ urlcolor=MyDarkBlue}
 \begin{document}
 
 \begin{resume_header}
-\name{Joma}
-\program{2A Honours Mathematics -- Computer Science Major}
-\contact{joma@joma.io \hspace{2cm} 345-234-3245 \hspace{2cm}Student ID: 00000000}
+  \name{Sean Yan}
+% \program{1B Honours Mathematics}
+  \contact{
+    \faLinkedinSquare \hspace{0.01cm} \href{https://www.linkedin.com/in/ding-hanyan/}{linkedin.com/in/ding-hanyan}
+    \hspace{0.5cm} 
+    \faEnvelopeSquare \hspace{0.01cm} \href{mailto:sean.yan@uwaterloo.ca}{sean.yan@uwaterloo.ca}
+    \hspace{0.5cm} 
+    \faPhoneSquare \hspace{0.01cm} \href{tel:7782519186}{778-251-9186}
+    \hspace{0.5cm}
+    \faGlobe \hspace{0.01cm} \href{https://twinkletoes5.netlify.app}{Personal Website}
+    \hspace{0.5cm}
+    \faGithubSquare \hspace{0.01cm} \href{https://github.com/TwinkletoesZen}{TwinkletoesZen}
+  }
 \end{resume_header}
 
-\begin{resume_section}{About Me}
+\begin{resume_section}{Skills}
   \begin{nospacetabbing}
 
-  \textbf{Technical Skills}  \= C/C++, Python, Java, Unix/Linux, Excel VBA, MySQL, Scheme, \LaTeX\\*
-  \textbf{Languages} \> Fluent in French; Conversational Proficiency in Cantonese\\*
-  \textbf{Art Technology} \> Adobe Photoshop, Adobe Premiere Pro, Illustrator\\*
-  \textbf{Interests} \> Digital Art, Cinematography, Photography, Design, Poker\\*
+  \textbf{Language:}  \= Python, C, Scheme(Racket), HTML, CSS \\*
+  \textbf{Tools:} \> Flask, ExpressJS, Selenium, Tkinter, Gil, Linux, Vim, VSCode, SSH, Bash, VirtualBox/VMware \\*
   \end{nospacetabbing}
 
 \end{resume_section}
 
-\begin{resume_section}{Work Experience}
-  \begin{resume_employer}{Statistics Canada}{Enumerator, Census 2011}{Montreal, QC}{Summer 2011}
-    \item Helped and convinced respondents in their dwellings to fill in the census forms
-    \item Fixed discrepancies in respondents answers to prevent anomalies in the 2011 Census
-    \item Managed and sorted census report in Statistics Canada's online database
-  \end{resume_employer}
-  
-  \begin{resume_employer}{McDonald’s, Aramark Canada, Compass Group}{Cashier, Food Services}{Montreal/Waterloo, QC/ON}{June 2009 - April 2013}
-    \item Worked in various food services company as a part time job during studies
-    \item Provided excellent customer service while executing quick transactions with accuracy in a stressful and fast paced environment
-    \item Maintained a sanitary workplace abiding to Canada's Food and Drugs Act and Regulations
-  \end{resume_employer}
+\begin{resume_section}{Projects}
+  \begin{resume_subsection}[]{Learning Assistant}
+   \begin{subitems}
+      \item Developed Web App that aims to improve student performance, by providing features like priority list, assignment and time manager.
+      \item Implemented through Flask, SQLAlchemy, Jinja, and Bootstrap.
+      \item Programmed through Agile development, with the current version implemented in NodeJS, MySQL, Pug, and CSS
+    \end{subitems}
+  \end{resume_subsection}
+
+  \begin{resume_subsection}[]{Auto Form Filler (Web Scraper)}
+    \begin{subitems}
+      \item Automated submission of daily health forms during the pandemic by using Python Selenium to interact with the web via a terminal. Which optimized the repetitive daily form-filling process for Students.
+    \end{subitems}
+  \end{resume_subsection}
+
+  \begin{resume_subsection}[]{Personal Website}
+    \begin{subitems}
+      \item Developed a personal website with HTML and CSS to showcase projects.
+      \item Acquired skills in basic front-end design, such as CSS Flexbox.
+    \end{subitems}
+  \end{resume_subsection}
+
+  \begin{resume_subsection}[]{Password Manager}
+    \begin{subitems}
+      \item Implemented a Password Manager with Python, with the ability to create, add, and store passwords locally to the user's system.
+      \item Improved the program over time by adopting version control, simple OOP Designs, and documentation.
+    \end{subitems}
+  \end{resume_subsection}
+
 \end{resume_section}
 
 
-\begin{resume_section}{Competitions and Personal Projects}
-  \begin{resume_subsection}[(Feburary 2013)]{Rotman International Trading Competition}
-  \begin{subitems}
-    \item Developed quantitative strategies and applied them during the competition againts undergraduate and graduate students from schools around the world
-    \item Implemented Excel VBA macros to facilitate trading and to datamine the simulated cases for research
-    \item Wrote a bot for the Algo Case in VBA using their RIT client API that optimizes asset liquidation and profit from arbitrage
-    \end{subitems}
-  \end{resume_subsection}
+\begin{resume_section}{Experiences}
+  \begin{resume_employer}{Speaker of Student Parliament}{Bodwell High School}{North Vancouver, BC}{02/2022 - 06/2022}
+    \item Led and managed all meetings that the Parliament conducts.
+    \item Directed and Organized events including school-wide sports events and talent shows.
+    \item Guided Parliament's Communication by being compassionate and an effective speaker.
+  \end{resume_employer}
 
+  \begin{resume_employer}{Minister of Student Parliament}{Bodwell High School}{North Vancouver, BC}{02/2022}
+    \item Led the team of the Communication Ministry, directing the Student Parliament in Technology, Art, and Marketing.
+    \item Elected as the minister of the Communication ministry after a year as a member of the ministry.
+  \end{resume_employer}
 
-  \begin{resume_subsection}[(March 2013)]{Prism Trading Competition}
-  \begin{subitems}
-    \item Competed in the simulated Sales and Trading Case using the RIT software winning first place (1/12)
-    \item Calculated profitability of large offers using VWAP while market making.
-    \item Provided liquidity to the market, to profit from competitors large market orders.
-    \end{subitems}
-  \end{resume_subsection}
+  \begin{resume_employer}{English Teacher}{Team Alpha}{Taichung, TW}{07/2020}
+    \item Volunteered to teach local Taiwanese primary school students English for 8 hours/day.
+    \item Motivated 50+ students' interests in English Learning.
+    \item Organized course programming, including but not limited to course content and classroom setup.
+  \end{resume_employer}
 
-
-
-  \begin{resume_subsection}[(December 2012)]{Intrade}
-    \begin{subitems}
-        \item Wrote an algorithm in Python to trade DOW contracts using Black-Scholes binary option pricing.
-        \item Automated trades using the Intrade API which required the use of XML processing using ETree libraries
-        \item Data mined live feed from various websites for live Index Pricing and Volatility by parsing HTML
-    \end{subitems}
-  \end{resume_subsection}
+\end{resume_section}
   
-  \begin{resume_subsection}[(December 2011 - January 2012)]{Poker}
-    \begin{subitems}
-    \item Simultaneously played 24 cash game tables with 0.01\$/0.02\$ blinds on PokerStars
-    \item Played over 200,000 hands with 500\$+ profits with rakeback bonus (5bb/100)
-    \item Recorded every hand played using HoldemManager and statistically analyzed my unprofitable plays and opponents weaknesses to potentially take advantage of them
-    \end{subitems}
-  \end{resume_subsection}
-
+\begin{resume_section}{Awards}
+  \begin{nospacetabbing}
+    \textbf{Valedictorian:} \= Awarded from Bodwell High School for the Class of 2022.\\*
+    \textbf{Community Services Scholarship:} \= Awarded outstanding contribution to the school community.\\*
+  \end{nospacetabbing}
+\end{resume_section}
 
 \begin{resume_section}{Education}
-  \begin{resume_subsection}[Waterloo, ON (2012--Present)]{University of Waterloo}
-    \begin{subitems}
-      \item Honours Bachelor of Mathematics (Computer Science)
-      \item Cummulative Average: 93\%
-      \item Honors: Dean's Honours List
-    \end{subitems}
-  \end{resume_subsection}
-  
-  
-  \begin{resume_subsection}[Westmount, QC (2010--2012)]{Marianopolis College}
-    \begin{subitems}
-      \item Pure and Applied Science DEC
-      \item Cummulative Average: 93\%
-     \end{subitems}
+  \begin{resume_subsection}[07/2022 - Present]{University of Waterloo}
+    \begin{nospacetabbing}
+      \textbf{Program:} \= Honours Mathematics \\*
+      \textbf{Courses:} \>Advanced Data Structures \& Algorithm, Advanced Designing Functional Programs. \\*
+      \textbf{Awards:} \> President's Scholarship (\$2000) \\*
+      \textbf{Activity:} \>Ultimate Frisbee \\*
+    \end{nospacetabbing}
   \end{resume_subsection}
 \end{resume_section}
 
+
+
+  
 \end{document}
+
