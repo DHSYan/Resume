@@ -3,6 +3,7 @@
 \usepackage{color}
 \usepackage{hyperref}
 \usepackage{fontawesome}
+\usepackage{CJK}
 
 \hypersetup{breaklinks=true,%
 colorlinks=true,%
@@ -95,18 +96,19 @@ urlcolor=MyDarkBlue}
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
+\begin{CJK*}{UTF8}{bsmi}
 
 \begin{resume_header}
-  \name{Sean Yan}
+  \name{顏鼎翰(Sean Yan)}
 % \program{1B Honours Mathematics}
   \contact{
     \faLinkedinSquare \hspace{0.01cm} \href{https://www.linkedin.com/in/dhsyan/}{linkedin.com/in/dhsyan}
     \hspace{0.5cm} 
     \faEnvelopeSquare \hspace{0.01cm} \href{mailto:sean.yan@uwaterloo.ca}{sean.yan@uwaterloo.ca}
     \hspace{0.5cm} 
-    \faPhoneSquare \hspace{0.01cm} \href{tel:7782519186}{778-251-9186}
+    \faPhoneSquare \hspace{0.01cm} \href{tel:7782519186}{0905518422}
     \hspace{0.5cm}
-    \faGlobe \hspace{0.01cm} \href{https://twinkletoes5.netlify.app}{Personal Website}
+    \faGlobe \hspace{0.01cm} \href{https://twinkletoes5.netlify.app}{個人網站}
     \hspace{0.5cm}
     \faGithubSquare \hspace{0.01cm} \href{https://github.com/DHSYan}{DHSYan}
   }
@@ -127,84 +129,72 @@ urlcolor=MyDarkBlue}
 \begin{resume_section}{Projects}
   \begin{resume_subsection}[]{\href{}{PRIMPL Assembler, SIMPL Compiler}}
    \begin{subitems}
-     \item Programmed both a compiler and an assembler for an imperative language and an assembly-type language.
-     \item Developed a strong understanding of core programming and computer science concepts, such as memory management,
-           low-level computer architecture, data structures and algorithms.
+     \item 為指令式語言和組合語言寫編譯器和組譯器，其中設計了堆疊及語法剖析器。
+     \item 透過此作品，深入了解編程和資工的核心概念，例如內存管理、低級電腦結構、數據結構和算法。
     \end{subitems}
   \end{resume_subsection}
 
   \begin{resume_subsection}[]{\href{https://github.com/TwinkletoesZen/.dotfiles}{.dotfiles - Software Developement Workflow \faGithub}}
     \begin{subitems}
-      \item A proactive passion project started with the love and goal of mastering the software development process.
-      \item Experienced with NeoVim with Lua, Bash scripting, Automation, and Terminal Multiplexer.
-      \item With 100+ commits, developed a strong skill of managing Git/Github workflow.
-
+      \item 積極主動的熱情項目始於對掌握軟件開發過程的熱愛和目標。
+      \item 具有使用NeoVim 和Lua、Bash 腳本、軟體自動化和Tmux的能力。
+      \item 通過100 多次commit，培養了管理Git/Github 工作流程的強大技能。
     \end{subitems}
   \end{resume_subsection}
 
   \begin{resume_subsection}[]{\href{https://github.com/TwinkletoesZen/Personal-Website}{Personal Website \faGithub}}
     \begin{subitems}
-      \item Developed a personal website with HTML and CSS to showcase projects.
-      \item Acquired skills in basic front-end design, such as CSS concepts and Flexbox.
-      \item Developed a core understanding of web principals, such as the DOM, browers, and web servers.
+      \item 使用HTML 和CSS 開發了個人網站來展示作品及簡介。
+      \item 掌握CSS概念、Flexbox等前端設計基礎知識。
+      \item 培養了對網絡原則的核心理解，例如網站架構、DOM、瀏覽器和網絡伺服器。
     \end{subitems}
   \end{resume_subsection}
 
   \begin{resume_subsection}[]{\href{https://github.com/TwinkletoesZen/Auto-HealthCheck-Completer}{Auto Form Filler (Web Scraper) \faGithub}}
     \begin{subitems}
-      \item Automated submission of daily health forms during the pandemic by using Python and Selenium to interact with the web via a terminal, which optimized the repetitive daily form-filling process for students.
+      \item 使用Python和Selenium設計網路爬蟲通過終端與網絡交互，在疫情期間自動提交日常健康表格，優化了學生重複的日常表格填寫過程。
     \end{subitems}
   \end{resume_subsection}
-
-
-
 \end{resume_section}
 
 
 \begin{resume_section}{Experiences}
-  \begin{resume_employer}{Speaker of the Student Parliament}{Bodwell High School}{North Vancouver, BC}{02/2022 - 06/2022}
-    \item Led and managed all meetings that the parliament conducted, and developed communication and interpersonal skills. 
-    \item Directed and organized events including school-wide sports events and talent shows, and formed collaboration skills.
-    \item Guided parliament's communication by being compassionate and an effective speaker and communicator.
+  \begin{resume_employer}{高中學生會議長}{Bodwell High School}{North Vancouver, BC}{02/2022 - 06/2022}
+    \item 領導和管理學生會召開的所有會議，並培養溝通和人際交往能力。
+    \item 指導和組織校內活動，包括全校體育賽事和才藝表演，並形成協作能力。
+    \item 通過富有同情心和有效的演講者和溝通者來指導議會的溝通。
   \end{resume_employer}
 
-  \begin{resume_employer}{Minister of the Student Parliament}{Bodwell High School}{North Vancouver, BC}{02/2022}
-    \item Led the team of the Communication Ministry, directing the student parliament in technology, art, and marketing.
-    \item Was elected as the minister of the Communication Ministry after 1 year as a team player in the ministry.
+  \begin{resume_employer}{高中學生會通訊部部長}{Bodwell High School}{North Vancouver, BC}{02/2022}
+    \item 領導通訊部團隊，在科技、藝術和營銷方面指導學生會。
+    \item 在該部工作一年後被選為通訊部部長。
   \end{resume_employer}
 
-  \begin{resume_employer}{English Teacher}{Team Alpha}{Taichung, TW}{07/2020}
-    % \item With minimal supervision, volunteered to teach English to local Taiwanese primary school students for 8 hours/day.
-    % \item While independently managing deadlines, organized course programming, course content and classroom setups. 
-    % \item Developed great interpersonal skills while collaborating with peer to deliver the best learning experience.
-    \item  With minimal supervision, volunteered to teach English to local Taiwanese primary school students for 8 hours/day.
-    \item Independently managed deadlines, and organized course programming, content, planning and classroom setups. 
-    \item Developed great interpersonal skills while collaborating with peers to deliver the best learning experience.
+  \begin{resume_employer}{英文老師}{Team Alpha}{Taichung, TW}{07/2020}
+    \item 在最少的監督下，自願每天教當地台灣小學生英語 8 小時。
+    \item 獨立管理截止日期，並組織課程編程、內容、規劃和課堂設置。
+    \item 在與同齡人合作以提供最佳學習體驗的同時，培養了良好的人際交往能力。
   \end{resume_employer}
 
 \end{resume_section}
   
 \begin{resume_section}{Awards}
   \begin{nospacetabbing}
-    \textbf{Valedictorian:} \= Awarded from Bodwell High School for the Class of 2022.\\*
-    \textbf{Community Services Scholarship:} \= Awarded for outstanding contribution to the school community.\\*
+    \textbf{社區服務獎學金：} \= 因對學校社區做出傑出貢獻而獲獎。\\
+    \textbf{畢業生代表：} \> 由Bodwell 高中授予2022 屆畢業生。\\
   \end{nospacetabbing}
 \end{resume_section}
 
 \begin{resume_section}{Education}
   \begin{resume_subsection}[07/2022 - Present]{University of Waterloo}
     \begin{nospacetabbing}
-      \textbf{Program:} \= Candidate in Honours Mathematics \\*
-      \textbf{Courses:} \>Advanced Data Structures \& Algorithm, Advanced Designing Functional Programs.
-                        \\*\> Tools and Techniques for Software Development, Linear Algebra 1.\\*
-      \textbf{Awards:} \> President's Scholarship\\*
-      % \textbf{Activity:} \> Ultimate Frisbee
+      \textbf{科系:} \= 資優數學系\\*
+      \textbf{課程:} \> 資優數據結構及算法  \& 資優設計功能程序  \& 軟件開發工具和技術  \& 線性代數 \\*
+      \textbf{獎項:} \> 校長獎學金\\*
     \end{nospacetabbing}
   \end{resume_subsection}
 \end{resume_section}
 
-
-
-  
+\end{CJK*}  
 \end{document}
 
