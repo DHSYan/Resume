@@ -64,7 +64,7 @@ urlcolor=MyDarkBlue}
 
 \newenvironment{resume_section}[1]{
   \filbreak
-  \vspace{1\secsep}
+  \vspace{2\secsep}
   \textsc{\large#1}
   \lineunder
   \begin{tabbedsection}{\secsep}
@@ -83,8 +83,7 @@ urlcolor=MyDarkBlue}
 
 \newenvironment{resume_employer}[4]{
   \vspace{\secsep}
-  \textbf{#1} {\footnotesize #3} \hfill {\footnotesize#4} \hspace{-1em} \\
-  \small{#2}  
+  \textbf{#1} {\footnotesize #2} \hfill {\footnotesize #3} \hspace{1em} {\footnotesize#4} \hspace{-5em}
   \vspace{\secsep}
   \begin{tabbedsection}{0pt}
   \begin{subitems}
@@ -97,6 +96,7 @@ urlcolor=MyDarkBlue}
 
 \begin{document}
 \begin{CJK*}{UTF8}{bsmi}
+\fontsize{12pt}{12pt}\selectfont
 
 \begin{resume_header}
   \name{顏鼎翰(Sean Yan)}
@@ -114,10 +114,10 @@ urlcolor=MyDarkBlue}
   }
 \end{resume_header}
 
-\begin{resume_section}{Skills}
+\begin{resume_section}{技能專長}
   \begin{nospacetabbing}
 
-  \textbf{Languages:}  \= Javascript/Typescript, C/C++, Java, Python, Rust, Scheme, Assembly, HTML/CSS, LaTeX \\*
+  \textbf{程式語言:}  \= Javascript/Typescript, C/C++, Java, Python, Rust, Scheme, Assembly, HTML/CSS, LaTeX \\*
   \textbf{Tools:} \> React, NextJS, Flask, ExpressJS, Selenium, Pandas, Nix/NixOS, Git/GitHub, Linux, Vim, Bash, Testing\\* 
                   \> VSCode, SSH, VirtualBox/VMware, Automation, Raspberry Pi, Excel, Word, MacOS, Windows
 
@@ -125,7 +125,7 @@ urlcolor=MyDarkBlue}
 
 \end{resume_section}
 
-\begin{resume_section}{Experiences}
+\begin{resume_section}{工作經驗}
     \begin{resume_employer}{數學與英文家教}{明光義塾}{台中市, 台灣}{05/2023 - 07/2023}
         \item 教授1至12年級學生數學與英文。
         \item 協助學生將數學校內考試分數從46\%提升至96\%。
@@ -134,7 +134,7 @@ urlcolor=MyDarkBlue}
     \end{resume_employer}
 \end{resume_section}
 
-\begin{resume_section}{Projects}
+\begin{resume_section}{專案}
     \begin{resume_subsection}[]{\href{}{PRIMPL Assembler, SIMPL Compiler}}
         \begin{subitems}
         \item 為指令式語言和組合語言寫編譯器和組譯器，其中設計了堆疊及語法剖析器。
@@ -165,9 +165,12 @@ urlcolor=MyDarkBlue}
     \end{subitems}
   \end{resume_subsection}
 
-  \begin{resume_subsection}[]{\href{https://github.com/TwinkletoesZen/.dotfiles}{Terminal Chat App (built 100\% in C)}}
-    \begin{subitems}
-    \end{subitems}
+  \begin{resume_subsection}[]{\href{https://github.com/TwinkletoesZen/.dotfiles}{終端聊天應用程式（100\%使用C語言開發）}}
+      \begin{subitems}
+      \item 使用 C 語言、TCP、UDP、Socket 與多執行緒技術開發終端聊天應用程式。
+      \item 支援多用戶登入、私人訊息、廣播訊息及媒體傳輸功能。
+      \item 習得多執行緒程式設計、網路程式設計及低階程式設計技能。
+      \end{subitems}
   \end{resume_subsection}
 
   % \begin{resume_subsection}[]{\href{https://github.com/TwinkletoesZen/Auto-HealthCheck-Completer}{Auto Form Filler (Web Scraper) \faGithub}}
@@ -178,26 +181,18 @@ urlcolor=MyDarkBlue}
 \end{resume_section}
 
 
-\begin{resume_section}{Experiences}
-  \begin{resume_employer}{高中學生會議長}{Bodwell High School}{North Vancouver, BC}{02/2022 - 06/2022}
-    % \item 領導和管理學生會召開的所有會議，並培養溝通和人際交往能力。
-    % \item 指導和組織校內活動，包括全校體育賽事和才藝表演，並形成協作能力。
-    % \item 通過富有同情心和有效的演講者和溝通者來指導議會的溝通。
+ \begin{resume_section}{志工經歷}
+  \begin{resume_employer}{農場志工}{台灣在地農場}{苗栗縣, 台灣}{07/2022 - 至今}
+    \item 在台灣的在地農場工作，協助種植樹木、香蕉樹及維護花園。
   \end{resume_employer}
-
-  \begin{resume_employer}{高中學生會通訊部部長}{Bodwell High School}{North Vancouver, BC}{02/2022}
-    % \item 領導通訊部團隊，在科技、藝術和營銷方面指導學生會。
-    % \item 在該部工作一年後被選為通訊部部長。
+  \begin{resume_employer}{學生議會議長}{博德威中學}{加拿大溫哥華北區}{02/2022 - 06/2022}
+    \item 主持並管理所有學生議會的會議，並培養了溝通與人際互動能力。
   \end{resume_employer}
-
-  \begin{resume_employer}{英文老師}{Team Alpha}{Taichung, TW}{07/2020}
-    % \item 在最少的監督下，自願每天教當地台灣小學生英語 8 小時。
-    % \item 獨立管理截止日期，並組織課程編程、內容、規劃和課堂設置。
-    % \item 在與同齡人合作以提供最佳學習體驗的同時，培養了良好的人際交往能力。
+  \begin{resume_employer}{英文教師}{Team Alpha}{台中市, 台灣}{07/2020}
+    \item 幾乎在無監督下，自願每天教授台灣小學生英文8小時。
   \end{resume_employer}
-
 \end{resume_section}
-  
+ 
 % \begin{resume_section}{Awards}
 %   \begin{nospacetabbing}
 %     \textbf{社區服務獎學金：} \= 因對學校社區做出傑出貢獻而獲獎。\\
@@ -205,7 +200,7 @@ urlcolor=MyDarkBlue}
 %   \end{nospacetabbing}
 % \end{resume_section}
 
-\begin{resume_section}{Education}
+\begin{resume_section}{學歷}
     \begin{resume_subsection}[09/2023 - 至今]{英屬哥倫比亞大學}
         \begin{nospacetabbing}
             \textbf{學位:} \= 理學士 \\*
