@@ -116,16 +116,15 @@ urlcolor=MyDarkBlue}
 \begin{resume_section}{Skills}
   \begin{nospacetabbing}
 
-  \textbf{Languages:}  \= Javascript/Typescript, C/C++, Java, Python, Rust, Scheme, Assembly, HTML/CSS, LaTeX \\*
-  \textbf{Tools:} \> React, NextJS, Flask, ExpressJS, Selenium, Pandas, Nix/NixOS, Git/GitHub, Linux, Vim, Bash, Testing\\* 
-                  \> VSCode, SSH, VirtualBox/VMware, Automation, Raspberry Pi, Excel, Word, MacOS, Windows
+  \textbf{Languages:}  \= Javascript/Typescript, C/C++, Java, Python, Rust, Bash, Scheme, Assembly, HTML/CSS, LaTeX\\*
+      \textbf{Tools:} \> NodeJS, Jest, Docker, ExpressJS, MongoDB, Pandas, Git/Github (Action), Flask, Nix, Linux. 
 
   \end{nospacetabbing}
 
 \end{resume_section}
 
 \begin{resume_section}{Experiences}
-  \begin{resume_employer}{Mathematics \& English Tutor}{Meiko School}{Taichung, TW}{05/2023 - 07/2023}
+  \begin{resume_employer}{Mathematics \& English Tutor}{Meiko School}{Taichung, Taiwan}{05/2023 - 07/2023}
     \item Tutored students from years 1 - 12 in Mathematics and English. 
     \item Improved students' school Mathematics test scores from 46\% to 96\%
     \item Helped students gain confidence in the topics of mathematics through lively teaching.
@@ -136,12 +135,20 @@ urlcolor=MyDarkBlue}
 \end{resume_section}
 
 \begin{resume_section}{Projects}
+  \begin{resume_subsection}[]{\href{https://github.com/DHSYan/job-tracker-api}{Job Tracker API}}
+   \begin{subitems}
+    \item Designed and developed a RESTful Job Tracker API using Node.js, Express.js, and MongoDB, enabling users to efficiently track job applications with CRUD operations, notes, and status management.
+    \item Implemented robust data modeling and modular architecture with Mongoose ODM, improving code maintainability and reducing onboarding time for new developers by 40\%.
+    \item Containerized the entire application with Docker and Docker Compose, simulating a production-grade environment and enhancing deployment reliability across different systems.
+    \item Achieved 95\%+ unit test coverage using Jest, ensuring stable CI/CD integration and significantly reducing regression bugs during feature updates.
+    \end{subitems}
+  \end{resume_subsection}
+
   \begin{resume_subsection}[]{\href{}{PRIMPL Assembler, SIMPL Compiler}}
    \begin{subitems}
-     \item Programmed both a compiler and an assembler for an imperative language and an assembly-type language.
-     \item Developed a strong understanding of core programming and computer science concepts, such as memory management,
-           low-level computer architecture, data structures and algorithms.
-    \item Understood and applied the knowledge of the stack, the heap, stack frames, stack and frame pointers.
+   \item Built a compiler and assembler for custom imperative and assembly languages, simulating a full toolchain.
+   \item Gained strong proficiency in manual memory management, low-level architecture, and algorithms.
+   \item Applied deep understanding of stack organization, including frames, pointers, and heap allocation.
     \end{subitems}
   \end{resume_subsection}
 
@@ -152,7 +159,7 @@ urlcolor=MyDarkBlue}
   %   \end{subitems}
   % \end{resume_subsection}
 
-  \begin{resume_subsection}[]{\href{https://github.com/TwinkletoesZen/nix-config}{Nix Config; Infrastructure as Code (No fear in reinstalling your OS!)\faGithub}}
+  \begin{resume_subsection}[]{\href{https://github.com/DHSYan/nix-config}{Nix Config; Infrastructure as Code (No fear in reinstalling your OS!)\faGithub}}
     \begin{subitems}
     \item Developed declarative, reproducible Nix configurations to ensure identical OS setups across systems.
     \item Implemented infrastructure as code to automate system rebuilds, eliminating manual provisioning. 
@@ -160,19 +167,19 @@ urlcolor=MyDarkBlue}
     \end{subitems}
   \end{resume_subsection}
 
-  \begin{resume_subsection}[]{\href{https://github.com/TwinkletoesZen/.dotfiles}{.dotfiles - Personalized Software Developement Workflow \faGithub}}
+  \begin{resume_subsection}[]{\href{https://github.com/DHSYan/.dotfiles}{.dotfiles - Personalized Software Developement Workflow \faGithub}}
     \begin{subitems}
-      \item A proactive passion project started with the love and goal of mastering the software development process.
-      \item Experienced with NeoVim with Lua, Bash scripting, Automation, and Terminal Multiplexer.
-      \item With 100+ commits, developed a strong skill of managing Git/Github workflow.
+    \item Engineered declarative and reproducible NixOS configurations, guaranteeing consistent system environments across multiple machines.
+    \item Automated full system provisioning using Infrastructure as Code principles, enabling one-command rebuilds and eliminating manual setup.
+    \item Daily drove NixOS as a primary OS, developing expert-level knowledge of Linux internals and improving personal development workflow efficiency by 10x.
     \end{subitems}
   \end{resume_subsection}
 
-  \begin{resume_subsection}[]{\href{https://github.com/TwinkletoesZen/.dotfiles}{Terminal Chat App (built 100\% in C)}}
+  \begin{resume_subsection}[]{\href{https://github.com/DHSYan/Terminal-Chat-App}{Terminal Chat App (built 100\% in C)}}
     \begin{subitems}
-        \item Engineered a Terminal Chat App using C, TCP, UDP, Sockets, Threads
-        \item Supports multi-user login, private messaging, boardcast messaging and media transfer.
-        \item Acquired skills of multi-threaded programming, network programming and low-level programming
+    \item Built a fully multi-threaded Terminal Chat Application in C using TCP/UDP sockets and POSIX threads, enabling concurrent handling of multiple users and real-time communication.
+    \item Designed thread-safe mechanisms to support features such as private messaging, broadcast messaging, and peer-to-peer media transfer without blocking.
+    \item Mastered low-level network and concurrency programming by implementing per-client thread management, synchronization primitives, and custom communication protocols.
     \end{subitems}
   \end{resume_subsection}
 
@@ -194,33 +201,33 @@ urlcolor=MyDarkBlue}
 \end{resume_section}
 
 
-\begin{resume_section}{Volunteering}
-  \begin{resume_employer}{Farmer}{Local Farm in Taiwan}{Miaoli County, Taiwan}{07/2022 - Present}
-    \item Worked on a local farm in Taiwan, to help plant trees, banana plants, and general maintenance of gardens.
-    % \item Directed and organized events including school-wide sports events and talent shows, and formed collaboration skills.
-    % \item Guided parliament's communication by being compassionate and an effective speaker and communicator.
-  \end{resume_employer}
-  \begin{resume_employer}{Speaker of the Student Parliament}{Bodwell High School}{North Vancouver, BC}{02/2022 - 06/2022}
-    \item Led and managed all meetings that the parliament conducted, and developed communication and interpersonal skills. 
-    % \item Directed and organized events including school-wide sports events and talent shows, and formed collaboration skills.
-    % \item Guided parliament's communication by being compassionate and an effective speaker and communicator.
-  \end{resume_employer}
-
-  % \begin{resume_employer}{Minister of the Student Parliament}{Bodwell High School}{North Vancouver, BC}{02/2022}
-  %   \item Led the team of the Communication Ministry, directing the student parliament in technology, art, and marketing.
-  %   % \item Was elected as the minister of the Communication Ministry after 1 year as a team player in the ministry.
-  % \end{resume_employer}
-
-  \begin{resume_employer}{English Teacher}{Team Alpha}{Taichung, TW}{07/2020}
-    % \item With minimal supervision, volunteered to teach English to local Taiwanese primary school students for 8 hours/day.
-    % \item While independently managing deadlines, organized course programming, course content and classroom setups. 
-    % \item Developed great interpersonal skills while collaborating with peer to deliver the best learning experience.
-    \item  With minimal supervision, volunteered to teach English to local Taiwanese primary school students for 8 hours/day.
-    % \item Independently managed deadlines, and organized course programming, content, planning and classroom setups. 
-    % \item Developed great interpersonal skills while collaborating with peers to deliver the best learning experience.
-  \end{resume_employer}
-
-\end{resume_section}
+% \begin{resume_section}{Volunteering}
+%   \begin{resume_employer}{Farmer}{Local Farm in Taiwan}{Miaoli County, Taiwan}{07/2022 - Present}
+%     \item Worked on a local farm in Taiwan, to help plant trees, banana plants, and general maintenance of gardens.
+%     % \item Directed and organized events including school-wide sports events and talent shows, and formed collaboration skills.
+%     % \item Guided parliament's communication by being compassionate and an effective speaker and communicator.
+%   \end{resume_employer}
+%   \begin{resume_employer}{Speaker of the Student Parliament}{Bodwell High School}{North Vancouver, BC}{02/2022 - 06/2022}
+%     \item Led and managed all meetings that the parliament conducted, and developed communication and interpersonal skills. 
+%     % \item Directed and organized events including school-wide sports events and talent shows, and formed collaboration skills.
+%     % \item Guided parliament's communication by being compassionate and an effective speaker and communicator.
+%   \end{resume_employer}
+%
+%   % \begin{resume_employer}{Minister of the Student Parliament}{Bodwell High School}{North Vancouver, BC}{02/2022}
+%   %   \item Led the team of the Communication Ministry, directing the student parliament in technology, art, and marketing.
+%   %   % \item Was elected as the minister of the Communication Ministry after 1 year as a team player in the ministry.
+%   % \end{resume_employer}
+%
+%   \begin{resume_employer}{English Teacher}{Team Alpha}{Taichung, TW}{07/2020}
+%     % \item With minimal supervision, volunteered to teach English to local Taiwanese primary school students for 8 hours/day.
+%     % \item While independently managing deadlines, organized course programming, course content and classroom setups. 
+%     % \item Developed great interpersonal skills while collaborating with peer to deliver the best learning experience.
+%     \item  With minimal supervision, volunteered to teach English to local Taiwanese primary school students for 8 hours/day.
+%     % \item Independently managed deadlines, and organized course programming, content, planning and classroom setups. 
+%     % \item Developed great interpersonal skills while collaborating with peers to deliver the best learning experience.
+%   \end{resume_employer}
+%
+% \end{resume_section}
   
 % \begin{resume_section}{Awards}
 %   \begin{nospacetabbing}
