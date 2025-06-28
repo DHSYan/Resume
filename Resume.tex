@@ -98,7 +98,7 @@ urlcolor=MyDarkBlue}
 \begin{document}
 
 \begin{resume_header}
-  \name{Sean Yan}
+    \name{(Ding-Han) Sean Yan}
   \program{Computer Science Major}
   \contact{
     \faLinkedinSquare \hspace{0.01cm} \href{https://www.linkedin.com/in/dhsyan/}{linkedin.com/in/dhsyan}
@@ -124,31 +124,27 @@ urlcolor=MyDarkBlue}
 \end{resume_section}
 
 \begin{resume_section}{Experiences}
-  \begin{resume_employer}{Mathematics \& English Tutor}{Meiko School}{Taichung, Taiwan}{05/2023 - 07/2023}
-    \item Tutored students from years 1 - 12 in Mathematics and English. 
-    \item Improved students' school Mathematics test scores from 46\% to 96\%
-    \item Helped students gain confidence in the topics of mathematics through lively teaching.
+    \begin{resume_employer}{Mathematics \& English Tutor}{\href{https://www.meikoschool.com.tw/}{Meiko School}}{Taichung, Taiwan}{05/2023 - 07/2023}
+    % \item Tutored students from years 1 - 12 in Mathematics and English. 
+    % \item Improved students' school Mathematics test scores from 46\% to 96\%
+    % \item Helped students gain confidence in the topics of mathematics through lively teaching.
     % \item Showed students "real" mathematics, by providing good pedagogy and providing guidance on building the intuition with mathematics.
-    \item Written quality reports to help parents better understand students' performance in sessions and provide comments on ways to continuously self-improve in the field of math.
+    % \item Written quality reports to help parents better understand students' performance in sessions and provide comments on ways to continuously self-improve in the field of math.
     % \item Taught English in unique ways that provide a fundamental framework that helps further English learning.
+    \item Tutored students from Years 1–12 in Mathematics and English, adapting methods to individual learning styles.
+    \item Raised students' Mathematics test scores from 46\% to 96\% through a strong pedagogical approach focused on clarity, intuition, and active problem-solving.
+    \item Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
+    \item Wrote detailed session reports to inform parents of student progress and offer actionable feedback for continuous improvement.
   \end{resume_employer}
 \end{resume_section}
 
 \begin{resume_section}{Projects}
-  \begin{resume_subsection}[]{\href{https://github.com/DHSYan/job-tracker-api}{Job Tracker API}}
+  \begin{resume_subsection}[]{\href{https://github.com/DHSYan/job-tracker-api}{Job Tracker API \faGithub}}}
    \begin{subitems}
     \item Designed and developed a RESTful Job Tracker API using Node.js, Express.js, and MongoDB, enabling users to efficiently track job applications with CRUD operations, notes, and status management.
     \item Implemented robust data modeling and modular architecture with Mongoose ODM, improving code maintainability and reducing onboarding time for new developers by 40\%.
     \item Containerized the entire application with Docker and Docker Compose, simulating a production-grade environment and enhancing deployment reliability across different systems.
     \item Achieved 95\%+ unit test coverage using Jest, ensuring stable CI/CD integration and significantly reducing regression bugs during feature updates.
-    \end{subitems}
-  \end{resume_subsection}
-
-  \begin{resume_subsection}[]{\href{}{PRIMPL Assembler, SIMPL Compiler}}
-   \begin{subitems}
-   \item Built a compiler and assembler for custom imperative and assembly languages, simulating a full toolchain.
-   \item Gained strong proficiency in manual memory management, low-level architecture, and algorithms.
-   \item Applied deep understanding of stack organization, including frames, pointers, and heap allocation.
     \end{subitems}
   \end{resume_subsection}
 
@@ -169,17 +165,28 @@ urlcolor=MyDarkBlue}
 
   \begin{resume_subsection}[]{\href{https://github.com/DHSYan/.dotfiles}{.dotfiles - Personalized Software Developement Workflow \faGithub}}
     \begin{subitems}
-    \item Engineered declarative and reproducible NixOS configurations, guaranteeing consistent system environments across multiple machines.
-    \item Automated full system provisioning using Infrastructure as Code principles, enabling one-command rebuilds and eliminating manual setup.
-    \item Daily drove NixOS as a primary OS, developing expert-level knowledge of Linux internals and improving personal development workflow efficiency by 10x.
+    % \item Engineered declarative and reproducible NixOS configurations, guaranteeing consistent system environments across multiple machines.
+    % \item Automated full system provisioning using Infrastructure as Code principles, enabling one-command rebuilds and eliminating manual setup.
+    % \item Daily drove NixOS as a primary OS, developing expert-level knowledge of Linux internals and improving personal development workflow efficiency by 10x.
+    \item Engineered declarative NixOS configs, ensuring consistent environments across all systems.
+    \item Automated system provisioning with IaC, enabling rebuilds and removing manual setup.
+    \item Daily drove NixOS, mastering Linux internals and 10x development workflow efficiency.
     \end{subitems}
   \end{resume_subsection}
 
-  \begin{resume_subsection}[]{\href{https://github.com/DHSYan/Terminal-Chat-App}{Terminal Chat App (built 100\% in C)}}
+  \begin{resume_subsection}[]{\href{https://github.com/DHSYan/Terminal-Chat-App}{Terminal Chat App (built 100\% in C) \faGithub}}}
     \begin{subitems}
     \item Built a fully multi-threaded Terminal Chat Application in C using TCP/UDP sockets and POSIX threads, enabling concurrent handling of multiple users and real-time communication.
     \item Designed thread-safe mechanisms to support features such as private messaging, broadcast messaging, and peer-to-peer media transfer without blocking.
     \item Mastered low-level network and concurrency programming by implementing per-client thread management, synchronization primitives, and custom communication protocols.
+    \end{subitems}
+  \end{resume_subsection}
+
+  \begin{resume_subsection}[]{\href{}{PRIMPL Assembler, SIMPL Compiler (School Project)}}
+   \begin{subitems}
+   \item Built a compiler and assembler for custom imperative and assembly languages, simulating a full toolchain.
+   \item Gained strong proficiency in manual memory management, low-level architecture, and algorithms.
+   \item Applied deep understanding of stack organization, including frames, pointers, and heap allocation.
     \end{subitems}
   \end{resume_subsection}
 
@@ -237,12 +244,12 @@ urlcolor=MyDarkBlue}
 % \end{resume_section}
 %
 \begin{resume_section}{Education}
-  \begin{resume_subsection}[09/2023 - Present]{University of British Columbia}
+  \begin{resume_subsection}[09/2023 - Present]{The University of British Columbia}
     \begin{nospacetabbing}
       \textbf{Program:} \= Bachelor of Science\\*
-      \textbf{Major:} \> Computer Science \\*
+        \textbf{Major:} \> \href{https://you.ubc.ca/ubc_programs/computer-science-vancouver-bsc/}{Computer Science}\\*
       \textbf{GPA}: \> 4.33/4.33 \\*
-      \textbf{Standing}: \> Dean's Scholar \\*
+        \textbf{Standing}: \> \href{https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-science/bachelor-science/recognition-academic-achievement}{Dean's Scholar}\\*
       % \textbf{Courses:} \>Advanced Data Structures \& Algorithm, Advanced Designing Functional Programs.
       %                   \\*\> Tools and Techniques for Software Development, Linear Algebra 1.\\*
       % \textbf{Extra-curricular:} \= Ultimate Frisbee
@@ -263,4 +270,3 @@ urlcolor=MyDarkBlue}
 % \end{resume_section}
 
 \end{document}
-
