@@ -7,7 +7,7 @@
 #let github = "github.com/DHSYan"
 #let linkedin = "linkedin.com/in/dhsyan"
 #let phone = "+1 (604) 977-6799"
-#let personal-site = "https://dhsyan.github.io/Portfolio-Website/"
+#let personal-site = "dhsyan.github.io/Portfolio-Website/"
 
 #show: resume.with(
   author: name,
