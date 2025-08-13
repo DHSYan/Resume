@@ -40,23 +40,9 @@
 * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
 * #generic-one-by-two(left: "", right: "")
 */
-== Education
-
-#edu(
-  institution: "University of British Columbia",
-  location: "Vancouver, BC",
-  dates: dates-helper(start-date: "Sept 2022", end-date: "Dec 2027"),
-  degree: "Bachelor's of Science, Honours Computer Science",
-  // gpa: "4.33\/4.33",
-
-  // Uncomment the line below if you want edu formatting to be consistent with everything else
-  consistent: true
-)
-- Cumulative GPA: 4.33\/4.33 | Dean's Science Scholar List
-// - Relevant Coursework: Software Engineering (CPSC 210, CPSC 110), Data Structures and
-//   Algorithms (CPSC 221), Linear Algebra (MATH 221), Discrete Mathematics (CPSC 121), Multivariable &
-//   Single Variable Calculus (MATH 200). Model of Computation (CPSC 121). 
-//   Computer Systems Fundamental (CPSC 213)
+== Skills
+- *Programming Languages*: Javascript/Typescript, C/C++, Java, Python, Rust, Bash, Scheme, Assembly, HTML/CSS.
+- *Technologies*: NodeJS, Jest, Docker, ExpressJS, VueJS, MongoDB, Pandas, Git/Github (Action), Flask, Nix, Linux. 
 
 == Experiences
 
@@ -66,20 +52,19 @@
   company: "Ai-pu-yun Tech Co., LTD",
   dates: dates-helper(start-date: "July 2025", end-date: "Present"),
 )
-- Tech used/trained on AWS, Vue.JS, playwright, typescript, Javascript, python, postgresql, 
-- startup, funding, business,
-- backend, security, 
-- projects developed:
+- Built backend systems at a startup using AWS, AWS SAM, PostgreSQL, Python, TypeScript, and Docker for scalable apps.
+- Used Vue.js, Playwright for front-end and testing, with CI/CD pipelines to streamline software development life cycle.
+- Collaborated with a team to drive startup growth, leveraging insights into funding, business strategies, and agile methods.
 
-#work(
-  title: "Computer Science Teaching Assistant",
-  location: "Vancouver, BC, Canada",
-  company: "University of British Columbia",
-  dates: dates-helper(start-date: "September 2025", end-date: "Present"),
-)
-- Task/Responsibiility
-- Role
-- Academia type work
+// #work(
+//   title: "Computer Science Teaching Assistant",
+//   location: "Vancouver, BC, Canada",
+//   company: "University of British Columbia",
+//   dates: dates-helper(start-date: "September 2025", end-date: "Present"),
+// )
+// - Task/Responsibiility
+// - Role
+// - Academia type work
 
 #work(
   title: "Private CS Tutor",
@@ -87,11 +72,9 @@
   company: "Self Employed",
   dates: dates-helper(start-date: "July 2025", end-date: "September 2025"),
 )
-
-- Taught CPSC 121 Model of Computation/Discrete Math/Intro To math proof, 
-- CPSC 210/ Software Engineering
-- Impact on student
-
+- Tutored CPSC 210: Software Construction, guiding students through object-oriented programming, design patterns, clean code principles, comprehensive unit testing, and effective documentation practices.
+- Tutored CPSC 121: Models of Computation,  formal logic, proofs, FSMs, and regex, showcasing strong logical reasoning and clarity in theoretical concepts.
+- Demonstrated exceptional communication skills, breaking down intricate concepts into clear, accessible explanations.
 #work(
   title: "Mathematics & English Tutor",
   location: "Taichung, Taiwan",
@@ -110,19 +93,18 @@
   url: "Youtube.com/@DHSYan",
   dates: dates-helper(start-date: "November 2023", end-date: "Present"),
 )
-- Created Youtube video show casing how much passion I have for Computer Science.
+- To share my immense passion for computer science and software development.
 // - 124 Subscribers as of 2025
 
-// #project(
-//   name: "Job Tracker API",
-//   url: "github.com/DHSYan/job-tracker-api",
-// )
-// // - Built to solve the chaos of unorganized job hunting, this project was born out of firsthand frustration with tracking multiple job applications across spreadsheets and notes — transforming the process into a centralized, scalable, and developer-friendly backend system.
-// - Designed and developed a RESTful Job Tracker API using Node.js, Express.js, and MongoDB, enabling users to efficiently track job applications with CRUD operations, notes, and status management.
-// - Implemented robust data modeling and modular architecture with Mongoose ODM, improving code maintainability and reducing onboarding time for new developers by 40\%.
-// - Containerized the entire application with Docker and Docker Compose, simulating a production-grade environment and enhancing deployment reliability across different systems.
-// - Achieved 95\%+ unit test coverage using Jest, ensuring stable CI/CD integration and significantly reducing regression bugs during feature updates.
-
+#project(
+  name: "Job Tracker API",
+  url: "github.com/DHSYan/job-tracker-api",
+)
+// - Built to solve the chaos of unorganized job hunting, this project was born out of firsthand frustration with tracking multiple job applications across spreadsheets and notes — transforming the process into a centralized, scalable, and developer-friendly backend system.
+- Built RESTful API with Node.js, Express.js, and MongoDB for job application tracking with CRUD features.
+- Used Mongoose ODM for robust data modeling and modular architecture, enhancing code scalability and maintainability.
+- Containerized app with Docker and Docker Compose for reliable, production-like deployments across systems.
+- Attained 95%+ unit test coverage with Jest, ensuring stable CI/CD and 80% fewer regression bugs during updates.
 // #project(
 //   name: "Self Driving Arduino Car",
 //   // url: "github.com/DHSYan/job-tracker-api", // TODO
@@ -152,10 +134,9 @@
   name: "Multi-threaded Chat App in C",
   url: "github.com/DHSYan/Terminal-Chat-App",
 )
-- Built a fully multi-threaded Chat Application in C using TCP/UDP sockets and POSIX threads, enabling concurrent handling of multiple users and real-time communication.
-- Designed thread-safe mechanisms to support features such as private messaging, broadcast messaging, and peer-to-peer media transfer without blocking.                               
-- Mastered low-level network and concurrency programming by implementing per-client thread management, synchronization primitives, and custom communication protocols.               
-//
+- Built multi-threaded chat app using TCP/UDP with concurrent user handling and real-time communication.
+- Designed thread-safe private and broadcast messaging, plus peer-to-peer media transfer without blocking.
+- Mastered network and concurrency with per-client threads, synchronization, and custom protocols.
 #project(
   name: "S-expression Functional Language Compiler",
 )
@@ -163,11 +144,11 @@
 - Gained strong proficiency in manual memory management, low-level architecture, and algorithms.
 - Applied deep understanding of stack organization, including frames, pointers, and heap allocation.
 
-// #project(
-//   name: "Personal Website",
-//   url: "github.com/DHSYan/Portfolio-Website",
-// )
-// - Developed a personal website with HTML and CSS to showcase projects.
+#project(
+  name: "Personal Website",
+  url: "github.com/DHSYan/Portfolio-Website",
+)
+- Developed a personal website with HTML and CSS to showcase projects.
 // - Acquired skills in basic front-end design, such as CSS concepts and Flexbox.
 // - Developed a core understanding of web principals, such as the DOM, browers, and web servers.
 
@@ -177,8 +158,23 @@
 // )
 // - Automated submission of daily health forms during the pandemic by using Python and Selenium to interact with the web via a terminal, which optimized the repetitive daily form-filling process for students.
 
-== Skills
-- *Programming Languages*: Javascript/Typescript, C/C++, Java, Python, Rust, Bash, Scheme, Assembly, HTML/CSS.
-- *Technologies*: NodeJS, Jest, Docker, ExpressJS, Vue, MongoDB, Pandas, Git/Github (Action), Flask, Nix, Linux. 
+
+== Education
+
+#edu(
+  institution: "University of British Columbia",
+  location: "Vancouver, BC",
+  dates: dates-helper(start-date: "Sept 2022", end-date: "Dec 2027"),
+  degree: "Bachelor's of Science, Computer Science",
+  // gpa: "4.33\/4.33",
+
+  // Uncomment the line below if you want edu formatting to be consistent with everything else
+  consistent: true
+)
+- Cumulative GPA: 91.4% | Dean's Science Scholar List
+// - Relevant Coursework: Software Engineering (CPSC 210, CPSC 110), Data Structures and
+//   Algorithms (CPSC 221), Linear Algebra (MATH 221), Discrete Mathematics (CPSC 121), Multivariable &
+//   Single Variable Calculus (MATH 200). Model of Computation (CPSC 121). 
+//   Computer Systems Fundamental (CPSC 213)
 
 // TODO figure out how to embed links, github icons, and shorten the links here
