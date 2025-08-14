@@ -131,7 +131,7 @@
 // - Cumulative GPA: 91.4% | Dean's Science Scholar List
 == 技能
 - *程式語言*: Javascript/Typescript, C, C++, Java, Python, Rust, Bash, Scheme, Assembly, HTML/CSS。
-- *技術*: NodeJS, Jest, Docker, ExpressJS, VueJS, MongoDB, Pandas, Git/Github (Action), Flask, Nix, Linux。
+- *技術*: AWS (SAM), Jest, Docker, ExpressJS, VueJS, PostgreSQL, Pandas, Git/Github (Action), Flask, Nix, Linux。
 
 == 經歷
 #work(
@@ -140,8 +140,7 @@
   company: "英屬哥倫比亞 UBC 大學",
   dates: dates-helper(start-date: "09/2025", end-date: "至今"),
 )
-- 即將於2025/2026學年擔任英屬哥倫比亞大學計算機科學系助教。
-- 目前以兼職助教身份簽約。
+- 即將於2025/2026學年擔任英屬哥倫比亞大學資訊工程系助教。
 
 #work(
   title: "資工家教",
@@ -171,7 +170,7 @@
 - 分享我對資工與軟體開發的熱情。
 
 #project(
-  name: "求職追蹤API",
+  name: "求職追蹤器API",
   url: "github.com/DHSYan/job-tracker-api",
 )
 - 使用Node.js、Express.js及MongoDB構建具有CRUD功能的RESTful API，用於求職申請追蹤。
@@ -180,21 +179,25 @@
 - 使用Jest實現95%以上的單元測試覆蓋率，確保穩定的CI/CD流程及減少80%的回歸錯誤。
 
 #project(
+  name: "Nix 設定檔：基礎建設即程式碼（重灌系統再也不可怕！）",
+  url: "github.com/DHSYan/nix-config", 
+)
+- 使用 Nix 撰寫宣告式、可重現的系統設定，確保多台機器有一致的作業環境。
+- 將基礎建設流程程式化，自動化整個系統重建流程，完全免除手動設定。 #text(fill: white)[a]
+- 日常使用 NixOS，深入理解 Linux 系統架構，工作效率翻倍。
+
+#project(
   name: "C語言多執行緒聊天應用程式",
   url: "github.com/DHSYan/Terminal-Chat-App",
 )
-
-- 使用TCP/UDP構建多執行緒聊天應用程式，支援並發用戶處理及即時通訊。
-- 設計執行緒安全的私人及廣播訊息功能，以及非阻塞的p2p媒體傳輸。
-- 精通網路及並發處理，實現每個客戶端的執行緒、同步及自訂協議。 #text(fill: white)[a]
+- 使用 TCP/UDP 架構多執行緒聊天應用程式，支援並發用戶處理、即時通訊，並設計具執行緒安全的私人與廣播訊息功能，以及非阻塞的點對點媒體傳輸。 精通網路及並發處理，實現每個客戶端的執行緒同步及自訂協議。 #text(fill: white)[a]
 
 
 #project(
   name: "S表達式函數語言編譯器",
 )
 - 構建自訂函數語言及組合語言的編譯器與組譯器，模擬完整工具鏈。#text(fill: white)[a]
-- 深入掌握手動記憶體管理、低階架構及演算法。#text(fill: white)[a]
-- 應用對堆疊組織的深入理解，包括框架、指針及堆分配。#text(fill: white)[a]
+- 深入掌握手動記憶體管理、低階架構及演算法。及應用對堆疊組織的深入理解，包括框架、指針及堆分配。#text(fill: white)[a]
 
 #project(
   name: "自動表單填寫器（網頁爬蟲）",
@@ -210,4 +213,4 @@
   degree: "資訊工程學士",
   consistent: true
 )
-- 累計GPA：91.4% | Dean's Scholar List
+- GPA：91.4% | Dean's Scholar List
