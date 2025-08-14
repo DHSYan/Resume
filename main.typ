@@ -1,12 +1,13 @@
+#import "@preview/basic-resume:0.2.8": *
 #import "@preview/cuti:0.2.1": show-cn-fakebold
 #show: show-cn-fakebold
 
 #set text(
-  font: "Noto Sans CJK TC",
+  font: "Noto Sans CJK",
   lang: "zh",
   region: "TW",
 )
-#import "@preview/basic-resume:0.2.8": *
+// #set par(leading: 1em)
 
 // Put your personal information here, replacing mine
 #let name = "Ding-Han (Sean) Yan"
@@ -134,29 +135,29 @@
 
 == 經歷
 #work(
-  title: "計算機科學助教",
-  location: "加拿大不列顛哥倫比亞省溫哥華",
-  company: "不列顛哥倫比亞大學",
-  dates: dates-helper(start-date: "September 2025", end-date: "Present"),
+  title: "資工系助教",
+  location: "加拿大BC省溫哥華",
+  company: "英屬哥倫比亞 UBC 大學",
+  dates: dates-helper(start-date: "09/2025", end-date: "至今"),
 )
-- 即將於2025/2026學年擔任不列顛哥倫比亞大學計算機科學系助教。
+- 即將於2025/2026學年擔任英屬哥倫比亞大學計算機科學系助教。
 - 目前以兼職助教身份簽約。
 
 #work(
-  title: "私人計算機科學導師",
-  location: "加拿大不列顛哥倫比亞省溫哥華",
+  title: "資工家教",
+  location: "加拿大BC省溫哥華",
   company: "自僱",
-  dates: dates-helper(start-date: "July 2025", end-date: "September 2025"),
+  dates: dates-helper(start-date: "07/2025", end-date: "September 2025"),
 )
-- 教授CPSC 210：軟體構建，指導學生學習物件導向程式設計、設計模式、乾淨程式碼原則、全面單元測試及有效文件編寫。
-- 教授CPSC 121：計算模型，涵蓋形式邏輯、證明、有限狀態機及正則表達式，展現強大的邏輯推理及理論概念清晰度。
+- 教導CPSC 210：軟體工程，指導學生學習物件導向程式設計、設計模式、整潔程式碼原則、全面單元測試及有效文件編寫。
+- 教導CPSC 121：計算模型，涵蓋形式邏輯、證明、有限狀態機及正則表達式，展現強大的邏輯推理及理論概念清晰度。
 - 展現卓越溝通能力，將複雜概念分解為清晰易懂的解釋。
 
 #work(
   title: "數學與英語導師",
   location: "台灣台中",
-  company: "美光學校",
-  dates: dates-helper(start-date: "May 2023", end-date: "July 2023"),
+  company: "明光義塾補習班",
+  dates: dates-helper(start-date: "05/2023", end-date: "072023"),
 )
 - 為1至12年級學生教授數學和英語，根據個人學習風格調整教學方法。
 - 透過清晰、直觀及主動解決問題的教學方法，將學生數學考試成績從46%提升至96%。
@@ -165,9 +166,9 @@
 #project(
   name: "YouTube",
   url: "Youtube.com/@DHSYan",
-  dates: dates-helper(start-date: "November 2023", end-date: "Present"),
+  dates: dates-helper(start-date: "11/2023", end-date: "Present"),
 )
-- 分享對計算機科學及軟體開發的熱情。
+- 分享我對資工與軟體開發的熱情。
 
 #project(
   name: "求職追蹤API",
@@ -182,16 +183,18 @@
   name: "C語言多執行緒聊天應用程式",
   url: "github.com/DHSYan/Terminal-Chat-App",
 )
+
 - 使用TCP/UDP構建多執行緒聊天應用程式，支援並發用戶處理及即時通訊。
-- 設計執行緒安全的私人及廣播訊息功能，以及非阻塞的點對點媒體傳輸。
-- 精通網路及並發處理，實現每個客戶端的執行緒、同步及自訂協議。
+- 設計執行緒安全的私人及廣播訊息功能，以及非阻塞的p2p媒體傳輸。
+- 精通網路及並發處理，實現每個客戶端的執行緒、同步及自訂協議。 #text(fill: white)[a]
+
 
 #project(
   name: "S表達式函數語言編譯器",
 )
-- 構建自訂函數語言及組合語言的編譯器與組譯器，模擬完整工具鏈。
-- 深入掌握手動記憶體管理、低階架構及演算法。
-- 應用對堆疊組織的深入理解，包括框架、指針及堆分配。
+- 構建自訂函數語言及組合語言的編譯器與組譯器，模擬完整工具鏈。#text(fill: white)[a]
+- 深入掌握手動記憶體管理、低階架構及演算法。#text(fill: white)[a]
+- 應用對堆疊組織的深入理解，包括框架、指針及堆分配。#text(fill: white)[a]
 
 #project(
   name: "自動表單填寫器（網頁爬蟲）",
@@ -199,12 +202,12 @@
 )
 - 使用Python及Selenium自動化疫情期間的每日健康表單提交，透過終端與網頁互動，優化學生重複填表流程。
 
-== 教育
+== 學歷
 #edu(
-  institution: "不列顛哥倫比亞大學",
-  location: "加拿大不列顛哥倫比亞省溫哥華",
-  dates: dates-helper(start-date: "Sept 2022", end-date: "Dec 2027"),
-  degree: "計算機科學學士",
+  institution: "英屬哥倫比亞大學 (UBC)",
+  location: "加拿大英屬哥倫比亞省溫哥華",
+  dates: dates-helper(start-date: "09/2022", end-date: "12/2027"),
+  degree: "資訊工程學士",
   consistent: true
 )
-- 累計GPA：91.4% | 科學學者名單
+- 累計GPA：91.4% | Dean's Scholar List
