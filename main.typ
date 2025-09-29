@@ -2,7 +2,7 @@
 
 // Put your personal information here, replacing mine
 #let name = "Ding-Han (Sean) Yan"
-#let location = "Vancouver, BC (Able to Relocate)"
+#let location = "Vancouver, BC"
 #let email = "dhsyan@student.ubc.ca"
 #let github = "github.com/DHSYan"
 #let linkedin = "linkedin.com/in/dhsyan"
@@ -19,7 +19,7 @@
   github: github,
   linkedin: linkedin,
   phone: phone,
-  personal-site: personal-site,
+  // personal-site: personal-site,
   accent-color: "#26428b",
   font: "New Computer Modern",
   paper: "us-letter",
@@ -63,34 +63,32 @@
 #work(
   title: "Software Engineer Intern",
   location: "Taipei, Taiwan",
-  company: "Ai-pu-yun Tech Co., LTD",
-  dates: dates-helper(start-date: "July 2025", end-date: "Present"),
+  company: "MetaGuru (Subsidiary of Qisda Corporation)",
+  dates: dates-helper(start-date: "September 2025", end-date: "Present"),
 )
-- Tech used/trained on AWS, Vue.JS, playwright, typescript, Javascript, python, postgresql, 
-- startup, funding, business,
-- backend, security, 
-- projects developed:
-
+- Engineered cloud infrastructure as part of the Epic Cloud development team, leveraging expertise in GCP.
+- Designing and developed an AI agent to streamline company meeting digestion and automation processes.
+- Resolved client Google Workspace (GWS) support tickets, delivering efficient and effective technical solutions.
 #work(
   title: "Computer Science Teaching Assistant",
   location: "Vancouver, BC, Canada",
   company: "University of British Columbia",
   dates: dates-helper(start-date: "September 2025", end-date: "Present"),
 )
-- Task/Responsibiility
-- Role
-- Academia type work
+- Undergraduate teaching assistant for first-year computer science course: CPSC 121: Models of Computation.
+- Led tutorials and labs, proactively supporting students via office hours to boost concept mastery.
+- Mastered propositional and first-order logic, discrete mathematics, circuits, regular expressions, and DFAs/NFAs.
+- Honed strong communication skills by clearly explaining complex concepts to diverse student groups.
 
 #work(
   title: "Private CS Tutor",
   location: "Vancouver, BC, Canada",
   company: "Self Employed",
-  dates: dates-helper(start-date: "July 2025", end-date: "September 2025"),
+  dates: dates-helper(start-date: "July 2025", end-date: "Present"),
 )
-
-- Taught CPSC 121 Model of Computation/Discrete Math/Intro To math proof, 
-- CPSC 210/ Software Engineering
-- Impact on student
+- Taught CPSC 110: Computation and Programming, CPSC 121: Models of Computation, CPSC 210: Software Engineering.
+- Cultivated advanced proficiency in Racket and Java to effectively teach and guide students in mastering these languages.
+- Developed strong interpersonal skills by building rapport with students and providing constructive feedback.
 
 #work(
   title: "Mathematics & English Tutor",
@@ -99,8 +97,7 @@
   dates: dates-helper(start-date: "May 2023", end-date: "July 2023"),
 )
 - Tutored students from Years 1–12 in Mathematics and English, adapting methods to individual learning styles.
-- Raised students' Mathematics test scores from 46\% to 96\% through a strong pedagogical approach focused on clarity, intuition, and active problem-solving.
-// - Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
+- Raised students' mathematics test scores from 46% to 96% through a strong pedagogical approach focused on clarity, intuition, and active problem-solving.// - Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
 // - Wrote detailed session reports to inform parents of student progress and offer actionable feedback for continuous improvement.
 
 == Projects
@@ -110,8 +107,7 @@
   url: "Youtube.com/@DHSYan",
   dates: dates-helper(start-date: "November 2023", end-date: "Present"),
 )
-- Created Youtube video show casing how much passion I have for Computer Science.
-// - 124 Subscribers as of 2025
+- Produced engaging YouTube videos showcasing a deep passion for Computer Science, focusing on Neovim, learning strategies, and effective note-taking techniques. // - 124 Subscribers as of 2025
 
 // #project(
 //   name: "Job Tracker API",
