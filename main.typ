@@ -79,11 +79,11 @@
 // - Engineered scalable cloud infrastructure solutions within Epic Cloud development team,
 //   leveraging Google Cloud Platform to optimize system performance by X%.
 - Architected AI agent using Python, Celery, and Redis to automate meeting
-  summarization across platforms (WeChat, LINE, REST APIs), eliminating X hours weekly.
+  summarization across platforms (WeChat, LINE, REST APIs), eliminating X hours weekly. //@claude, lengthen this by maybe 9 words
 - Built PDF extraction tool using Google Vision AI API, streamlining workflows
-  for X departments and improving accessibility. // @claude shorten this by 1 or 2 words
+  for X departments.
 - Developed LDAP .NET middleware with SSO authentication, deploying containerized
-  solutions via K3s, Nginx, and Docker.// @claude shorten this by 1 or 2 words
+  solutions via K3s, Nginx, Docker.
 - Authored Model Context Protocol documentation, establishing practices that
   improved team efficiency by X%.
 - Led frontend development using C\# and HTML, spearheading UI projects that
@@ -127,8 +127,8 @@
 )
 - Tutored students from Years 1–12 in Mathematics and English, adapting methods to
   individual learning styles.
-- Raised students' mathematics test scores from 46% to 96% through pedagogical approach
-  focused on clarity, intuition, and active problem-solving strategies. // @claude, shorthens this by 5 or 6 words
+- Raised students' mathematics test scores from 46% to 96% through pedagogical
+  approach focused on clarity and problem-solving. // @claude Shorten this by 2 words
 // - Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
 // - Wrote detailed session reports to inform parents of student progress and offer actionable feedback for continuous improvement.
 
@@ -167,11 +167,13 @@
   name: "Nix Config",
   url: "github.com/DHSYan/nix-config", 
 )
-- Engineered declarative Nix configurations ensuring identical OS environments across
-  X systems, eliminating configuration drift.// @claude shorten this by 1 or 2 words
-- Implemented infrastructure-as-code automation for system rebuilds, reducing
-  provisioning time by X hours and providing atomic rollback capabilities for system
-  reliability. 
+- Engineered declarative Nix configurations ensuring identical OS environments
+  across X systems, eliminating drift.
+// - Implemented infrastructure-as-code automation for rebuilds, reducing
+//   provisioning time by X hours and providing atomic rollback capabilities for system
+//   reliability.  
+- Implemented infrastructure-as-code (IaC) automation for rebuilds with atomic rollback,
+  reducing provisioning time.
 // - Acquired deep understanding of Linux systems by daily driving NixOS, and
 //   increased efficiency by 100\%
 
@@ -190,13 +192,14 @@
   name: "Multi-threaded Chat App in C",
   url: "github.com/DHSYan/Terminal-Chat-App",
 )
-- Built multi-threaded chat application in C using TCP/UDP sockets and POSIX threads,
-  enabling concurrent multi-user real-time communication.// @claude shorten this by 3 or 4 words
+- Built multi-threaded chat application in C using TCP/UDP sockets and POSIX
+  threads, enabling concurrent real-time communication. // @claude, shorten this by 2 words or so
 // - Designed thread-safe mechanisms to support features such as private
   //   messaging, broadcast messaging, and peer-to-peer media transfer without
   //   blocking.                               
-- Mastered low-level network and concurrency programming by implementing per-client
-  thread management, synchronization primitives, and custom protocols.// @claude shorten this by 3 or 4 words
+- Mastered low-level network and concurrency programming implementing per-client
+  threads, synchronization primitives, and custom protocols.// @claude, shorten this by 2 words or so
+
 
 #project(
   name: "S-expression Functional Language Compiler",
