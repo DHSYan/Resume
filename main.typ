@@ -64,7 +64,7 @@
 // @claude, fix this work block here. Fix the spelling, fix the grammar
 // improve the writing, without changing the tone.
 // Also take what I have right now, and make me sound employable, and 
-// maybe even find ways to quantifiy these impacts. If you think 
+// maybe even find ways to quantify these impacts. If you think 
 // something can be quantified, leave it as X like "saved X minutes" 
 // and let me think about and decide what to put
 // only change this work block
@@ -76,20 +76,22 @@
   company: "MetaGuru (Subsidiary of Qisda Corporation)",
   dates: dates-helper(start-date: "Sept 2025", end-date: "Feb 2026"),
 )
-- Engineered cloud infrastructure as part of the Epic Cloud development team,
-  leveraging expertise in GCP.
-- Designing and developed an AI agent with Python, Celery, Redis to streamline
-  company meeting digestion. With Multiple different message app like 
-  WeChat, LINE, RestAPI, with modular design of using different LLM Models.
-- Google Vision AI API to develop PDF text extractor for more internal 
-  company usage.
-- LDAP dotnet and SSO and Authentication research and developing 
-  middleware for legacy application, deployed with with k3s (k8s) deployment
-  with Nginx, and docker
-- MCP Research with Technical Note and Documentation WRiting skills
-- Frontend Developement with cshtml, UI Rehaul, Design work, know how to 
-  coordinate with stakeholders on design
-- n8n/node-red server management with docker
+// - Engineered scalable cloud infrastructure solutions within Epic Cloud development team,
+//   leveraging Google Cloud Platform to optimize system performance by X%.
+- Architected intelligent AI agent using Python, Celery, and Redis to automate meeting
+  summarization workflows across multiple platforms (WeChat, LINE, REST APIs),
+  eliminating X hours of manual processing weekly.
+- Built comprehensive PDF text extraction tool using Google Vision AI API, streamlining
+  document processing workflows for X departments and improving data accessibility. // @claude, shorten
+- Developed LDAP .NET middleware with SSO authentication for legacy application
+  modernization, deploying containerized solutions via K3s, Nginx, and Docker to
+  enhance security. // @claude, shorten
+- Authored technical documentation for Model Context Protocol research, establishing
+  best practices that improved development team efficiency by X%. // @claude, shorten
+- Led frontend development initiatives using C\# and HTML, spearheading UI overhaul
+  projects that enhanced user experience for X stakeholders. // @claude shorten,
+- Managed Docker-containerized n8n automation servers, reducing workflow deployment
+  complexity and decreasing setup time by X minutes per deployment. // @claude, shorten
 
 #work(
   title: "Computer Science Teaching Assistant",
@@ -97,10 +99,14 @@
   company: "University of British Columbia",
   dates: dates-helper(start-date: "Sept 2025", end-date: "Present"),
 )
-- Undergraduate teaching assistant for first-year computer science course: CPSC 121: Models of Computation.
-- Led tutorials and labs, proactively supporting students via office hours to boost concept mastery.
-- Mastered propositional and first-order logic, discrete mathematics, circuits, regular expressions, and DFAs/NFAs.
-- Honed strong communication skills by clearly explaining complex concepts to diverse student groups.
+- Undergraduate teaching assistant for first-year computer science course: CPSC 121:
+  Models of Computation.
+- Led tutorials and labs, proactively supporting students via office hours to boost
+  concept mastery.
+- Mastered propositional and first-order logic, discrete mathematics, circuits,
+  regular expressions, and DFAs/NFAs.
+- Honed strong communication skills by clearly explaining complex concepts to diverse
+  student groups.
 
 #work(
   title: "Private CS Tutor",
@@ -108,9 +114,12 @@
   company: "Self Employed",
   dates: dates-helper(start-date: "Jul 2025", end-date: "Dec 2025"),
 )
-- Taught CPSC 110: Computation and Programming, CPSC 121: Models of Computation, CPSC 210: Software Engineering.
-- Cultivated advanced proficiency in Racket and Java to effectively teach and guide students in mastering these languages.
-- Developed strong interpersonal skills by building rapport with students and providing constructive feedback.
+- Taught CPSC 110: Computation and Programming, CPSC 121: Models of
+  Computation, CPSC 210: Software Engineering. // @claude this line's length is perfect! Read this line and try to all the other lines, this length or a multiple of this length so it would fit on the PDF better. Only change it for the other lines if it's really far off
+- Cultivated advanced proficiency in Racket and Java to effectively teach and guide
+  students in mastering these languages.
+- Developed strong interpersonal skills by building rapport with students and
+  providing constructive feedback.
 
 #work(
   title: "Mathematics & English Tutor",
@@ -118,8 +127,11 @@
   company: "Meiko School",
   dates: dates-helper(start-date: "May 2023", end-date: "Jul 2023"),
 )
-- Tutored students from Years 1–12 in Mathematics and English, adapting methods to individual learning styles.
-- Raised students' mathematics test scores from 46% to 96% through a strong pedagogical approach focused on clarity, intuition, and active problem-solving.// - Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
+- Tutored students from Years 1–12 in Mathematics and English, adapting methods to
+  individual learning styles.
+- Raised students' mathematics test scores from 46% to 96% through a strong pedagogical
+  approach focused on clarity, intuition, and active problem-solving. // @claude, maybe shorten, or lengthen
+// - Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
 // - Wrote detailed session reports to inform parents of student progress and offer actionable feedback for continuous improvement.
 
 == Projects
@@ -129,7 +141,7 @@
   url: "youtube.com/@DHSYan",
   // dates: dates-helper(start-date: "November 2023", end-date: "Present"),
 )
-- Produced YouTube videos showcasing Computer Science, focusing on Neovim,
+- Produced YouTube videos showcasing CS, focusing on Neovim,
   learning strategies, and effective note-taking techniques.
 // - 124 Subscribers as of 2025
 
@@ -157,10 +169,11 @@
   name: "Nix Config",
   url: "github.com/DHSYan/nix-config", 
 )
-- Developed declarative, reproducible Nix configurations to ensure identical OS
-  setups across systems.
-- Implemented infrastructure as code to automate system rebuilds, eliminating
-  manual provisioning, with fallback as safety. 
+- Engineered declarative, reproducible Nix configurations ensuring identical operating
+  system environments across X systems, eliminating configuration drift. //@claude, shorten
+- Implemented infrastructure-as-code automation for system rebuilds, reducing
+  provisioning time by X hours and providing atomic rollback capabilities for system
+  reliability. 
 // - Acquired deep understanding of Linux systems by daily driving NixOS, and
 //   increased efficiency by 100\%
 
@@ -175,6 +188,7 @@
 
 // #let myurl = #link("github.com/DHSYan/Terminal-Chat-App")[github]
 
+// @claude shorten
 #project(
   name: "Multi-threaded Chat App in C",
   url: "github.com/DHSYan/Terminal-Chat-App",
@@ -188,7 +202,7 @@
 - Mastered low-level network and concurrency programming by implementing
   per-client thread management, synchronization primitives, and custom
   communication protocols.               
-//
+
 #project(
   name: "S-expression Functional Language Compiler",
 )
