@@ -1,22 +1,27 @@
 {
-  description = "A very basic flake";
+  description = "Resume";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
 
   outputs =
     { self, nixpkgs }:
     let
         system = "x86_64-linux";
-    pkgs = nixpkgs.legacyPackages.${system}; 
+        pkgs = import nixpkgs { 
+            inherit system; 
+            config.allowUnfree = true; 
+        };
     in
     {
 
       devShells = {
-        ${system}.resume = pkgs.mkShell {
+        ${system}.default = pkgs.mkShell {
           packages = with pkgs; [
             tinymist
+            typst
+            claude-code
           ];
 
           shellHook = ''
