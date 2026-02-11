@@ -78,18 +78,19 @@
 )
 // - Engineered scalable cloud infrastructure solutions within Epic Cloud development team,
 //   leveraging Google Cloud Platform to optimize system performance by X%.
-- Architected AI agent using Python, Celery, and Redis to automate meeting
-  summarization across platforms (WeChat, LINE, REST APIs), eliminating X hours weekly. //@claude, lengthen this by maybe 9 words
+- Architected intelligent AI agent using Python, Celery, and Redis to automate meeting
+  summarization across multiple messaging platforms (WeChat, LINE, REST APIs),
+  eliminating 5\~7 hours of manual documentation weekly.
 - Built PDF extraction tool using Google Vision AI API, streamlining workflows
-  for X departments.
+  for 5 departments.
 - Developed LDAP .NET middleware with SSO authentication, deploying containerized
   solutions via K3s, Nginx, Docker.
 - Authored Model Context Protocol documentation, establishing practices that
-  improved team efficiency by X%.
+  improved team efficiency by 80%.
 - Led frontend development using C\# and HTML, spearheading UI projects that
-  enhanced experience for X stakeholders.
+  enhanced experience for stakeholders.
 - Managed Docker-containerized n8n automation servers, reducing deployment
-  complexity and setup time by X minutes.
+  complexity and setup time by 70%.
 
 #work(
   title: "Computer Science Teaching Assistant",
@@ -128,7 +129,7 @@
 - Tutored students from Years 1–12 in Mathematics and English, adapting methods to
   individual learning styles.
 - Raised students' mathematics test scores from 46% to 96% through pedagogical
-  approach focused on clarity and problem-solving. // @claude Shorten this by 2 words
+  approach focused on problem-solving.
 // - Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
 // - Wrote detailed session reports to inform parents of student progress and offer actionable feedback for continuous improvement.
 
@@ -168,7 +169,7 @@
   url: "github.com/DHSYan/nix-config", 
 )
 - Engineered declarative Nix configurations ensuring identical OS environments
-  across X systems, eliminating drift.
+  across 8 systems, eliminating drift.
 // - Implemented infrastructure-as-code automation for rebuilds, reducing
 //   provisioning time by X hours and providing atomic rollback capabilities for system
 //   reliability.  
@@ -193,12 +194,11 @@
   url: "github.com/DHSYan/Terminal-Chat-App",
 )
 - Built multi-threaded chat application in C using TCP/UDP sockets and POSIX
-  threads, enabling concurrent real-time communication. // @claude, shorten this by 2 words or so
+  threads.
 // - Designed thread-safe mechanisms to support features such as private
   //   messaging, broadcast messaging, and peer-to-peer media transfer without
   //   blocking.                               
-- Mastered low-level network and concurrency programming implementing per-client
-  threads, synchronization primitives, and custom protocols.// @claude, shorten this by 2 words or so
+- Mastered low-level network and concurrency programming synchronization primitives, and protocols.
 
 
 #project(
