@@ -60,20 +60,42 @@
 
 == Experiences
 
+
+// @claude, fix this work block here. Fix the spelling, fix the grammar
+// improve the writing, without changing the tone.
+// Also take what I have right now, and make me sound employable, and 
+// maybe even find ways to quantifiy these impacts. If you think 
+// something can be quantified, leave it as X like "saved X minutes" 
+// and let me think about and decide what to put
+// only change this work block
+//
+// Also don't remove this comment, 
 #work(
   title: "Software Engineer Intern",
-  location: "Taipei, Taiwan",
+  location: "Taipei, Taiwan (Hybrid)",
   company: "MetaGuru (Subsidiary of Qisda Corporation)",
-  dates: dates-helper(start-date: "September 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Sept 2025", end-date: "Feb 2026"),
 )
-- Engineered cloud infrastructure as part of the Epic Cloud development team, leveraging expertise in GCP.
-- Designing and developed an AI agent to streamline company meeting digestion and automation processes.
-- Resolved client Google Workspace (GWS) support tickets, delivering efficient and effective technical solutions.
+- Engineered cloud infrastructure as part of the Epic Cloud development team,
+  leveraging expertise in GCP.
+- Designing and developed an AI agent with Python, Celery, Redis to streamline
+  company meeting digestion. With Multiple different message app like 
+  WeChat, LINE, RestAPI, with modular design of using different LLM Models.
+- Google Vision AI API to develop PDF text extractor for more internal 
+  company usage.
+- LDAP dotnet and SSO and Authentication research and developing 
+  middleware for legacy application, deployed with with k3s (k8s) deployment
+  with Nginx, and docker
+- MCP Research with Technical Note and Documentation WRiting skills
+- Frontend Developement with cshtml, UI Rehaul, Design work, know how to 
+  coordinate with stakeholders on design
+- n8n/node-red server management with docker
+
 #work(
   title: "Computer Science Teaching Assistant",
   location: "Vancouver, BC, Canada",
   company: "University of British Columbia",
-  dates: dates-helper(start-date: "September 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Sept 2025", end-date: "Present"),
 )
 - Undergraduate teaching assistant for first-year computer science course: CPSC 121: Models of Computation.
 - Led tutorials and labs, proactively supporting students via office hours to boost concept mastery.
@@ -84,7 +106,7 @@
   title: "Private CS Tutor",
   location: "Vancouver, BC, Canada",
   company: "Self Employed",
-  dates: dates-helper(start-date: "July 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Jul 2025", end-date: "Dec 2025"),
 )
 - Taught CPSC 110: Computation and Programming, CPSC 121: Models of Computation, CPSC 210: Software Engineering.
 - Cultivated advanced proficiency in Racket and Java to effectively teach and guide students in mastering these languages.
@@ -94,7 +116,7 @@
   title: "Mathematics & English Tutor",
   location: "Taichung, Taiwan",
   company: "Meiko School",
-  dates: dates-helper(start-date: "May 2023", end-date: "July 2023"),
+  dates: dates-helper(start-date: "May 2023", end-date: "Jul 2023"),
 )
 - Tutored students from Years 1–12 in Mathematics and English, adapting methods to individual learning styles.
 - Raised students' mathematics test scores from 46% to 96% through a strong pedagogical approach focused on clarity, intuition, and active problem-solving.// - Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
@@ -104,10 +126,12 @@
 
 #project(
   name: "Youtube",
-  url: "Youtube.com/@DHSYan",
-  dates: dates-helper(start-date: "November 2023", end-date: "Present"),
+  url: "youtube.com/@DHSYan",
+  // dates: dates-helper(start-date: "November 2023", end-date: "Present"),
 )
-- Produced engaging YouTube videos showcasing a deep passion for Computer Science, focusing on Neovim, learning strategies, and effective note-taking techniques. // - 124 Subscribers as of 2025
+- Produced YouTube videos showcasing Computer Science, focusing on Neovim,
+  learning strategies, and effective note-taking techniques.
+// - 124 Subscribers as of 2025
 
 // #project(
 //   name: "Job Tracker API",
@@ -126,13 +150,20 @@
 // - Engineered a self driving car that follows line with Arduino. 
 // - Acquired skills of a team player, and team leader in the Software Department
 
-// #project(
-//   name: "Nix Config; Infrastructure as Code (No fear in reinstalling your OS!)",
-//   url: "github.com/DHSYan/nix-config", 
-// )
-// - Developed declarative, reproducible Nix configurations to ensure identical OS setups across systems.
-// - Implemented infrastructure as code to automate system rebuilds, eliminating manual provisioning. 
-// - Acquired deep understanding of Linux systems by daily driving NixOS, and increased efficiency by 100\%
+// @claude, improve this project block, by fixing the writing. improving 
+  // the writing, fix the spelling and grammar mistakes
+  // make this sound impressive, maybe even quantifying the thing
+#project(
+  name: "Nix Config",
+  url: "github.com/DHSYan/nix-config", 
+)
+- Developed declarative, reproducible Nix configurations to ensure identical OS
+  setups across systems.
+- Implemented infrastructure as code to automate system rebuilds, eliminating
+  manual provisioning, with fallback as safety. 
+// - Acquired deep understanding of Linux systems by daily driving NixOS, and
+//   increased efficiency by 100\%
+
 // #project(
 //   name: ".dotfiles - Personalized Software Developement Workflow",
 //   url: "github.com/DHSYan/.dotfiles", 
@@ -148,16 +179,22 @@
   name: "Multi-threaded Chat App in C",
   url: "github.com/DHSYan/Terminal-Chat-App",
 )
-- Built a fully multi-threaded Chat Application in C using TCP/UDP sockets and POSIX threads, enabling concurrent handling of multiple users and real-time communication.
-- Designed thread-safe mechanisms to support features such as private messaging, broadcast messaging, and peer-to-peer media transfer without blocking.                               
-- Mastered low-level network and concurrency programming by implementing per-client thread management, synchronization primitives, and custom communication protocols.               
+- Built a fully multi-threaded Chat Application in C using TCP/UDP sockets and
+  POSIX threads, enabling concurrent handling of multiple users and real-time
+  communication.
+// - Designed thread-safe mechanisms to support features such as private
+  //   messaging, broadcast messaging, and peer-to-peer media transfer without
+  //   blocking.                               
+- Mastered low-level network and concurrency programming by implementing
+  per-client thread management, synchronization primitives, and custom
+  communication protocols.               
 //
 #project(
   name: "S-expression Functional Language Compiler",
 )
 - Built a compiler and assembler for custom functional and assembly languages, simulating a full toolchain.
-- Gained strong proficiency in manual memory management, low-level architecture, and algorithms.
-- Applied deep understanding of stack organization, including frames, pointers, and heap allocation.
+// - Gained strong proficiency in manual memory management, low-level architecture, and algorithms.
+// - Applied deep understanding of stack organization, including frames, pointers, and heap allocation.
 
 // #project(
 //   name: "Personal Website",
