@@ -78,20 +78,18 @@
 )
 // - Engineered scalable cloud infrastructure solutions within Epic Cloud development team,
 //   leveraging Google Cloud Platform to optimize system performance by X%.
-- Architected intelligent AI agent using Python, Celery, and Redis to automate meeting
-  summarization workflows across multiple platforms (WeChat, LINE, REST APIs),
-  eliminating X hours of manual processing weekly.
-- Built comprehensive PDF text extraction tool using Google Vision AI API, streamlining
-  document processing workflows for X departments and improving data accessibility. // @claude, shorten
-- Developed LDAP .NET middleware with SSO authentication for legacy application
-  modernization, deploying containerized solutions via K3s, Nginx, and Docker to
-  enhance security. // @claude, shorten
-- Authored technical documentation for Model Context Protocol research, establishing
-  best practices that improved development team efficiency by X%. // @claude, shorten
-- Led frontend development initiatives using C\# and HTML, spearheading UI overhaul
-  projects that enhanced user experience for X stakeholders. // @claude shorten,
-- Managed Docker-containerized n8n automation servers, reducing workflow deployment
-  complexity and decreasing setup time by X minutes per deployment. // @claude, shorten
+- Architected AI agent using Python, Celery, and Redis to automate meeting
+  summarization across platforms (WeChat, LINE, REST APIs), eliminating X hours weekly.
+- Built PDF extraction tool using Google Vision AI API, streamlining workflows
+  for X departments and improving accessibility. // @claude shorten this by 1 or 2 words
+- Developed LDAP .NET middleware with SSO authentication, deploying containerized
+  solutions via K3s, Nginx, and Docker.// @claude shorten this by 1 or 2 words
+- Authored Model Context Protocol documentation, establishing practices that
+  improved team efficiency by X%.
+- Led frontend development using C\# and HTML, spearheading UI projects that
+  enhanced experience for X stakeholders.
+- Managed Docker-containerized n8n automation servers, reducing deployment
+  complexity and setup time by X minutes.
 
 #work(
   title: "Computer Science Teaching Assistant",
@@ -129,8 +127,8 @@
 )
 - Tutored students from Years 1–12 in Mathematics and English, adapting methods to
   individual learning styles.
-- Raised students' mathematics test scores from 46% to 96% through a strong pedagogical
-  approach focused on clarity, intuition, and active problem-solving. // @claude, maybe shorten, or lengthen
+- Raised students' mathematics test scores from 46% to 96% through pedagogical approach
+  focused on clarity, intuition, and active problem-solving strategies. // @claude, shorthens this by 5 or 6 words
 // - Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
 // - Wrote detailed session reports to inform parents of student progress and offer actionable feedback for continuous improvement.
 
@@ -169,8 +167,8 @@
   name: "Nix Config",
   url: "github.com/DHSYan/nix-config", 
 )
-- Engineered declarative, reproducible Nix configurations ensuring identical operating
-  system environments across X systems, eliminating configuration drift. //@claude, shorten
+- Engineered declarative Nix configurations ensuring identical OS environments across
+  X systems, eliminating configuration drift.// @claude shorten this by 1 or 2 words
 - Implemented infrastructure-as-code automation for system rebuilds, reducing
   provisioning time by X hours and providing atomic rollback capabilities for system
   reliability. 
@@ -188,20 +186,17 @@
 
 // #let myurl = #link("github.com/DHSYan/Terminal-Chat-App")[github]
 
-// @claude shorten
 #project(
   name: "Multi-threaded Chat App in C",
   url: "github.com/DHSYan/Terminal-Chat-App",
 )
-- Built a fully multi-threaded Chat Application in C using TCP/UDP sockets and
-  POSIX threads, enabling concurrent handling of multiple users and real-time
-  communication.
+- Built multi-threaded chat application in C using TCP/UDP sockets and POSIX threads,
+  enabling concurrent multi-user real-time communication.// @claude shorten this by 3 or 4 words
 // - Designed thread-safe mechanisms to support features such as private
   //   messaging, broadcast messaging, and peer-to-peer media transfer without
   //   blocking.                               
-- Mastered low-level network and concurrency programming by implementing
-  per-client thread management, synchronization primitives, and custom
-  communication protocols.               
+- Mastered low-level network and concurrency programming by implementing per-client
+  thread management, synchronization primitives, and custom protocols.// @claude shorten this by 3 or 4 words
 
 #project(
   name: "S-expression Functional Language Compiler",
