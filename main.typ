@@ -52,7 +52,7 @@
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   consistent: true
 )
-- Cumulative GPA: 4.33\/4.33 | Dean's Science Scholar List
+// - Cumulative GPA: 4.00\/4.33 | Dean's Science Scholar List
 // - Relevant Coursework: Software Engineering (CPSC 210, CPSC 110), Data Structures and
 //   Algorithms (CPSC 221), Linear Algebra (MATH 221), Discrete Mathematics (CPSC 121), Multivariable &
 //   Single Variable Calculus (MATH 200). Model of Computation (CPSC 121). 
