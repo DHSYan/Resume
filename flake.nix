@@ -23,10 +23,6 @@
             typst
             claude-code
           ];
-
-          shellHook = ''
-              zsh
-          '';
         };
       };
     };
