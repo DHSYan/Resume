@@ -227,7 +227,7 @@
 - *Technologies*: NodeJS, Jest, Docker, ExpressJS, Vue, MongoDB, Pandas, Git/Github (Action), Flask, Nix, Linux. 
 
 // TODO figure out how to embed links, github icons, and shorten the links here
-// #align(center, image("coop_footer_updated.png", height: 22pt))
-#set page(
-  foreground: place(bottom + center, dy: -1cm, image("./coop_footer_updated.png", width: 4cm))
-)
+#align(center, image("coop_footer_updated.png", height: 22pt))
+// #set page(
+//   foreground: place(bottom + center, dy: -1cm, image("./coop_footer_updated.png", width: 4cm))
+// )

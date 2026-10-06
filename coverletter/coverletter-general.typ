@@ -53,7 +53,11 @@ why should you hire me
 
 why is not on my resume 
 - my personality, my passion, 
-- 
+- the fact that I have a homelab 
+- the fact that I thinker
+- the fact that I would spend time on optimization that people would 
+  not normally think of 
+- I am an learner learner
 
 - I have an unique 
 
