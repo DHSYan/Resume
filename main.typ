@@ -46,7 +46,7 @@
   institution: "University of British Columbia",
   location: "Vancouver, BC",
   dates: dates-helper(start-date: "Sept 2022", end-date: "Dec 2027"),
-  degree: "Bachelor's of Science, Honours Computer Science",
+  degree: "Bachelor's of Science, Honours Computer Science, UBC Science Co-op",
   // gpa: "4.33\/4.33",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
@@ -107,18 +107,18 @@
 - Honed strong communication skills by clearly explaining complex concepts to diverse
   student groups.
 
-#work(
-  title: "Private CS Tutor",
-  location: "Vancouver, BC, Canada",
-  company: "Self Employed",
-  dates: dates-helper(start-date: "Jul 2025", end-date: "Dec 2025"),
-)
-- Taught CPSC 110: Computation and Programming, CPSC 121: Models of
-  Computation, CPSC 210: Software Engineering. // @claude this line's length is perfect! Read this line and try to all the other lines, this length or a multiple of this length so it would fit on the PDF better. Only change it for the other lines if it's really far off
-- Cultivated advanced proficiency in Racket and Java to effectively teach and guide
-  students in mastering these languages.
-- Developed strong interpersonal skills by building rapport with students and
-  providing constructive feedback.
+// #work(
+//   title: "Private CS Tutor",
+//   location: "Vancouver, BC, Canada",
+//   company: "Self Employed",
+//   dates: dates-helper(start-date: "Jul 2025", end-date: "Dec 2025"),
+// )
+// - Taught CPSC 110: Computation and Programming, CPSC 121: Models of
+//   Computation, CPSC 210: Software Engineering. // @claude this line's length is perfect! Read this line and try to all the other lines, this length or a multiple of this length so it would fit on the PDF better. Only change it for the other lines if it's really far off
+// - Cultivated advanced proficiency in Racket and Java to effectively teach and guide
+//   students in mastering these languages.
+// - Developed strong interpersonal skills by building rapport with students and
+//   providing constructive feedback.
 
 #work(
   title: "Mathematics & English Tutor",
@@ -126,14 +126,19 @@
   company: "Meiko School",
   dates: dates-helper(start-date: "May 2023", end-date: "Jul 2023"),
 )
-- Tutored students from Years 1–12 in Mathematics and English, adapting methods to
-  individual learning styles.
+// - Tutored students from Years 1–12 in Mathematics and English, adapting methods to
+//   individual learning styles.
 - Raised students' mathematics test scores from 46% to 96% through pedagogical
   approach focused on problem-solving.
 // - Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
 // - Wrote detailed session reports to inform parents of student progress and offer actionable feedback for continuous improvement.
 
 == Projects
+#project(
+  name: "Homelab: Self-Hosted Infrastructure",
+)
+- Run 7 self-hosted services (Git, photos, files) on 5 machines via Docker Compose, declared in Nix with automated backups.
+- Secured with a WireGuard VPN, VLANs, firewall rules, TLS reverse proxy, and key-only SSH; zero public ports.
 
 #project(
   name: "Youtube",
@@ -166,7 +171,7 @@
   // make this sound impressive, maybe even quantifying the thing
 #project(
   name: "Nix Config",
-  url: "github.com/DHSYan/nix-config", 
+  url: "github.com/DHSYan/nix-config",  
 )
 - Engineered declarative Nix configurations ensuring identical OS environments
   across 8 systems, eliminating drift.
@@ -178,16 +183,24 @@
 // - Acquired deep understanding of Linux systems by daily driving NixOS, and
 //   increased efficiency by 100\%
 
-// #project(
-//   name: ".dotfiles - Personalized Software Developement Workflow",
-//   url: "github.com/DHSYan/.dotfiles", 
-// )
+
+#project(
+  name: "Dotfiles: Developer Tooling and Productivity",
+  url: "github.com/DHSYan/.dotfiles", 
+)
+- Maintaining 54 Bash CLI tools that automate my dev workflow: shell scripts for C, fuzzy tmux project switching.
 // - Engineered declarative NixOS configs, ensuring consistent environments across all systems.
 // - Automated system provisioning with IaC, enabling rebuilds, featuring rollbacks and removing manual setup.
 // - Daily drove NixOS, mastering Linux internals and 10x development workflow efficiency.
 // TODO: fix this description
 
 // #let myurl = #link("github.com/DHSYan/Terminal-Chat-App")[github]
+
+#project(
+  name: "I got you Pal (UBC EDT Hackathon)",
+  // url: "github.com/Breanne-Athalia-Sean/EDT-UBC-Sailbot-Comp", // TODO: repo is private; make public or leave off
+)
+- Built a React Native (Expo) app for seniors with a simplified, accessible UI and fall/frustration detection.
 
 #project(
   name: "Multi-threaded Chat App in C",
@@ -198,13 +211,13 @@
 // - Designed thread-safe mechanisms to support features such as private
   //   messaging, broadcast messaging, and peer-to-peer media transfer without
   //   blocking.                               
-- Mastered low-level network and concurrency programming synchronization primitives, and protocols.
+// - Mastered low-level network and concurrency programming synchronization primitives, and protocols.
 
 
-#project(
-  name: "S-expression Functional Language Compiler",
-)
-- Built a compiler and assembler for custom functional and assembly languages, simulating a full toolchain.
+// #project(
+//   name: "S-expression Functional Language Compiler",
+// )
+// - Built a compiler and assembler for custom functional and assembly languages, simulating a full toolchain.
 // - Gained strong proficiency in manual memory management, low-level architecture, and algorithms.
 // - Applied deep understanding of stack organization, including frames, pointers, and heap allocation.
 
@@ -223,11 +236,13 @@
 // - Automated submission of daily health forms during the pandemic by using Python and Selenium to interact with the web via a terminal, which optimized the repetitive daily form-filling process for students.
 
 == Skills
-- *Programming Languages*: Javascript/Typescript, C/C++, Java, Python, Rust, Bash, Scheme, Assembly, HTML/CSS.
-- *Technologies*: NodeJS, Jest, Docker, ExpressJS, Vue, MongoDB, Pandas, Git/Github (Action), Flask, Nix, Linux. 
+- *Languages*: TypeScript, JavaScript, Java, C\#, C/C++, Python, SQL, Rust, Bash, Racket, Assembly, HTML/CSS
+- *Frameworks*: React, Vue, Node.js, Express, .NET, Flask, Celery, Redis, REST APIs, Chart.js, Leaflet
+- *Cloud & DevOps*: AWS (Lambda, S3, EC2, SQS, API Gateway), GCP, Docker, Kubernetes, Nginx, Nix, Linux
+- *Data & Testing*: PostgreSQL, MySQL, MongoDB, Jest, Mocha, Supertest, JUnit, Git, GitHub Actions CI/CD
 
-// TODO figure out how to embed links, github icons, and shorten the links here
-#align(center, image("coop_footer_updated.png", height: 22pt))
-// #set page(
-//   foreground: place(bottom + center, dy: -1cm, image("./coop_footer_updated.png", width: 4cm))
-// )
+// // TODO figure out how to embed links, github icons, and shorten the links here
+// #align(center, image("coop_footer_updated.png", height: 22pt))
+// // #set page(
+// //   foreground: place(bottom + center, dy: -1cm, image("./coop_footer_updated.png", width: 4cm))
+// // )
