@@ -46,7 +46,7 @@
   institution: "University of British Columbia",
   location: "Vancouver, BC",
   dates: dates-helper(start-date: "Sept 2022", end-date: "Dec 2027"),
-  degree: "Bachelor's of Science, Honours Computer Science, UBC Science Co-op",
+  degree: "Bachelor of Science, Honours Computer Science, UBC Science Co-op",
   // gpa: "4.33\/4.33",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
@@ -78,10 +78,10 @@
 )
 // - Engineered scalable cloud infrastructure solutions within Epic Cloud development team,
 //   leveraging Google Cloud Platform to optimize system performance by X%.
-- Architected intelligent AI agent using Python, Celery, and Redis to automate meeting
+- Architected an intelligent AI agent using Python, Celery, and Redis to automate meeting
   summarization across multiple messaging platforms (WeChat, LINE, REST APIs),
-  eliminating 5\~7 hours of manual documentation weekly.
-- Built PDF extraction tool using Google Vision AI API, streamlining workflows
+  eliminating 5-7 hours of manual documentation weekly.
+- Built a PDF extraction tool using Google Vision AI API, streamlining workflows
   for 5 departments.
 - Developed LDAP .NET middleware with SSO authentication, deploying containerized
   solutions via K3s, Nginx, Docker.
@@ -128,7 +128,7 @@
 )
 // - Tutored students from Years 1–12 in Mathematics and English, adapting methods to
 //   individual learning styles.
-- Raised students' mathematics test scores from 46% to 96% through pedagogical
+- Raised students' mathematics test scores from 46% to 96% through a pedagogical
   approach focused on problem-solving.
 // - Fostered student confidence in mathematics by creating an engaging and supportive learning environment.
 // - Wrote detailed session reports to inform parents of student progress and offer actionable feedback for continuous improvement.
@@ -137,11 +137,11 @@
 #project(
   name: "Homelab: Self-Hosted Infrastructure",
 )
-- Run 7 self-hosted services (Git, photos, files) on 5 machines via Docker Compose, declared in Nix with automated backups.
+- Run 7 self-hosted services (Git, photos, files) on 8 machines via Docker Compose, declared in Nix with automated backups.
 - Secured with a WireGuard VPN, VLANs, firewall rules, TLS reverse proxy, and key-only SSH; zero public ports.
 
 #project(
-  name: "Youtube",
+  name: "YouTube",
   url: "youtube.com/@DHSYan",
   // dates: dates-helper(start-date: "November 2023", end-date: "Present"),
 )
@@ -188,7 +188,7 @@
   name: "Dotfiles: Developer Tooling and Productivity",
   url: "github.com/DHSYan/.dotfiles", 
 )
-- Maintaining 54 Bash CLI tools that automate my dev workflow: shell scripts for C, fuzzy tmux project switching.
+- Maintain 54 Bash CLI tools that automate my dev workflow: shell scripts for C, fuzzy tmux project switching.
 // - Engineered declarative NixOS configs, ensuring consistent environments across all systems.
 // - Automated system provisioning with IaC, enabling rebuilds, featuring rollbacks and removing manual setup.
 // - Daily drove NixOS, mastering Linux internals and 10x development workflow efficiency.
@@ -197,7 +197,7 @@
 // #let myurl = #link("github.com/DHSYan/Terminal-Chat-App")[github]
 
 #project(
-  name: "I got you Pal (UBC EDT Hackathon)",
+  name: "I Got You, Pal (UBC EDT Hackathon)",
   // url: "github.com/Breanne-Athalia-Sean/EDT-UBC-Sailbot-Comp", // TODO: repo is private; make public or leave off
 )
 - Built a React Native (Expo) app for seniors with a simplified, accessible UI and fall/frustration detection.
@@ -206,7 +206,7 @@
   name: "Multi-threaded Chat App in C",
   url: "github.com/DHSYan/Terminal-Chat-App",
 )
-- Built multi-threaded chat application in C using TCP/UDP sockets and POSIX
+- Built a multi-threaded chat application in C using TCP/UDP sockets and POSIX
   threads.
 // - Designed thread-safe mechanisms to support features such as private
   //   messaging, broadcast messaging, and peer-to-peer media transfer without
